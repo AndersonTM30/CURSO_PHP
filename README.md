@@ -10,3 +10,11 @@ Para checar as funções padrões do PHP, usamos o método ``` phpinfo() ```. El
 Significa que os nomes de variáveis, classes ou funções com diferenças entre maiúsculas e minúsculas, ou seja, $nome != $NOME. <br>
 Para Instruções PHP não tem essa diferença, ou seja, ``` echo = ECHO; ```. <br>
 Obs: veremos variáveis em detalhes mais adiante;
+
+## Quebra de linha
+No PHP permite quebra de linha como no exemplo:
+```
+echo 'quebra 
+de 
+linha<br>';
+```
