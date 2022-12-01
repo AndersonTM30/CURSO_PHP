@@ -18,3 +18,11 @@ echo 'quebra
 de 
 linha<br>';
 ```
+
+## Comentários
+Os comentários servem para dar informações e direções importantes de como o código funciona; <br>
+Iniciamos um comentário com ```//```. <br>
+Todo conteúdo que está em um comentário é ignorado na execução; <br>
+Não insira informações sensíveis nos comentários; <br>
+Outra forma de inserir comentários é com ```#```; <br>
+Comentários multi linhas são feitos com : ``` /* comentário */ ```
