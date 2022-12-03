@@ -25,4 +25,9 @@ Iniciamos um comentário com ```//```. <br>
 Todo conteúdo que está em um comentário é ignorado na execução; <br>
 Não insira informações sensíveis nos comentários; <br>
 Outra forma de inserir comentários é com ```#```; <br>
-Comentários multi linhas são feitos com : ``` /* comentário */ ```
+Comentários multi linhas são feitos com : ``` /* comentário */ ```;
+
+## Palavras Reservadas
+Algumas palavras são ```reservadas da linguagem``` e já tem suas funcionalidades definidas, então não podemos utilizar em nossos programas; <br>
+Pois caso fosse possível ```poderíamos substituir``` a sua função original; <br>
+``` Alguns exemplos são ```: __echo__, __insteadof__, __else__, __interface__, __namespace__, __pow__, __DIR__, __FILE__, __endif__, __print__, __private__, __protectes__, __and__ , __require__, __public__, __as__, __break__, __case__, __for__, __finally__, __switch__, __throw__ e etc. <br>
