@@ -31,3 +31,8 @@ Comentários multi linhas são feitos com : ``` /* comentário */ ```;
 Algumas palavras são ```reservadas da linguagem``` e já tem suas funcionalidades definidas, então não podemos utilizar em nossos programas; <br>
 Pois caso fosse possível ```poderíamos substituir``` a sua função original; <br>
 ``` Alguns exemplos são ```: __echo__, __insteadof__, __else__, __interface__, __namespace__, __pow__, __DIR__, __FILE__, __endif__, __print__, __private__, __protectes__, __and__ , __require__, __public__, __as__, __break__, __case__, __for__, __finally__, __switch__, __throw__ e etc. <br>
+
+## Tipos de dados: Inteiro
+Os inteiros são os números da matemática, como: 1, 2, 1231i841948; <br>
+Incluindo os núemros negativos; <br>
+Os números negativos devem ser descritos com o sinal de -, exe: -12;
