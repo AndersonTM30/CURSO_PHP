@@ -40,3 +40,8 @@ Os números negativos devem ser descritos com o sinal de -, exe: -12;
 ## Checando número inteiro
 Podemos validar se um dado é inteiro com a função __is_int()__; <br>
 Precisamos utiliza uma estrutura condicional __if__ para validar o valor; <br>
+
+## Tipos de dados: Float
+Os floats são todos os números com __casas decimais__;<br>
+Como o padrão universal é da língua inglesa, temos a separação de casas com o __.__ e não com a __,__; <br>
+Exemplos: 2.1234, 0.04, -13.8;
