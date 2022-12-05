@@ -36,3 +36,7 @@ Pois caso fosse possível ```poderíamos substituir``` a sua função original; 
 Os inteiros são os números da matemática, como: 1, 2, 1231i841948; <br>
 Incluindo os núemros negativos; <br>
 Os números negativos devem ser descritos com o sinal de -, exe: -12;
+
+## Checando número inteiro
+Podemos validar se um dado é inteiro com a função __is_int()__; <br>
+Precisamos utiliza uma estrutura condicional __if__ para validar o valor; <br>
