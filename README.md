@@ -50,4 +50,9 @@ Exemplos: 2.1234, 0.04, -13.8;
 Podemos utilizar a função ``` is_float()``` para verificar se um dado é um float; <br>
 A função recebe um __valor como parâmetro__; <br>
 Novamente receberemos __true or false__, dependendo do dados enviado; <br>
-Precisamos utilizar a estrutura __if__ para validar o valor
+Precisamos utilizar a estrutura __if__ para validar o valor;
+
+## Tipos de dados: String
+Os textos são conhecidos como ```strings```; <br>
+Em PHP podemos escreber textos em ```aspas simples ou duplas```, não há diferença para texto puro; <br>
+As aspas duplas ```interpretam variáveis```;
