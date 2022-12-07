@@ -45,3 +45,9 @@ Precisamos utiliza uma estrutura condicional __if__ para validar o valor; <br>
 Os floats são todos os números com __casas decimais__;<br>
 Como o padrão universal é da língua inglesa, temos a separação de casas com o __.__ e não com a __,__; <br>
 Exemplos: 2.1234, 0.04, -13.8;
+
+## Checando número float
+Podemos utilizar a função ``` is_float()``` para verificar se um dado é um float; <br>
+A função recebe um __valor como parâmetro__; <br>
+Novamente receberemos __true or false__, dependendo do dados enviado; <br>
+Precisamos utilizar a estrutura __if__ para validar o valor
