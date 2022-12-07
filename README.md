@@ -56,3 +56,9 @@ Precisamos utilizar a estrutura __if__ para validar o valor;
 Os textos são conhecidos como ```strings```; <br>
 Em PHP podemos escreber textos em ```aspas simples ou duplas```, não há diferença para texto puro; <br>
 As aspas duplas ```interpretam variáveis```;
+
+## Checando texto string
+Podemos utilizar a função ```is_string()``` para verificar se um dado é uma string; <br>
+A função recebe um ```valor como parâmetro```; <br>
+Novamente recebemos ```true or false```, dependendo do dado enviado; <br>
+Precisamos utilizar uma estrutura ```if``` para validar o valor;
