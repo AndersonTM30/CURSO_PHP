@@ -62,3 +62,9 @@ Podemos utilizar a função ```is_string()``` para verificar se um dado é uma s
 A função recebe um ```valor como parâmetro```; <br>
 Novamente recebemos ```true or false```, dependendo do dado enviado; <br>
 Precisamos utilizar uma estrutura ```if``` para validar o valor;
+
+## Booleanos
+O boolean é um tipo de dado que só possui ``` dois valores ```: <br>
+    __True__ - Verdadeiro; <br>
+    __False__ - Falso; <br>
+Alguns valores são considerados como falsos: 0,00, "0", [], NULL;
