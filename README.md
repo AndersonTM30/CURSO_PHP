@@ -68,3 +68,9 @@ O boolean é um tipo de dado que só possui ``` dois valores ```: <br>
     __True__ - Verdadeiro; <br>
     __False__ - Falso; <br>
 Alguns valores são considerados como falsos: 0,00, "0", [], NULL;
+
+## Checando se é booleano
+Podemos utilizar a função ```is_boolean()``` para verificar se um dados é um boolean; <br>
+A função recebe um __valor como parâmetro__; <br>
+Novamente recebemos __true ou false__ dependendo do dado enviado; <br>
+Precisamos utilizar uma estrutura if para validar o valor;
