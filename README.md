@@ -74,3 +74,9 @@ Podemos utilizar a função ```is_boolean()``` para verificar se um dados é um 
 A função recebe um __valor como parâmetro__; <br>
 Novamente recebemos __true ou false__ dependendo do dado enviado; <br>
 Precisamos utilizar uma estrutura if para validar o valor;
+
+## Tipo de dados: Array (conjunto, lista)
+O array é um tipo de dados que serve para __agrupar um conjunto de valores__; <br>
+Podemos inserir __qualquer tipo de dados__ na lista; <br>
+A sintaxe é: __[1, 2, 3, 4, 5]__; <br>
+Sempre entre ```[]```, dados separados por ```,```; <br>
