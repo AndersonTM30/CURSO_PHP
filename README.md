@@ -80,3 +80,9 @@ O array é um tipo de dados que serve para __agrupar um conjunto de valores__; <
 Podemos inserir __qualquer tipo de dados__ na lista; <br>
 A sintaxe é: __[1, 2, 3, 4, 5]__; <br>
 Sempre entre ```[]```, dados separados por ```,```; <br>
+
+## Tipo de dados: Array Associativo
+O __array associativo__ é basicamente um array, porém com __chave e valor__; <br>
+A __estrutura base é a mesma__, mas vamos construir dessa maneira: <br>
+``` $arr = ['nome' => 'Anderson', idade => 30]```; <br>
+Chave entre aspas, seta para apontar o valor e em seguida o valor da posição do array;
