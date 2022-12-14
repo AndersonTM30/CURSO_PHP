@@ -86,3 +86,8 @@ O __array associativo__ é basicamente um array, porém com __chave e valor__; <
 A __estrutura base é a mesma__, mas vamos construir dessa maneira: <br>
 ``` $arr = ['nome' => 'Anderson', idade => 30]```; <br>
 Chave entre aspas, seta para apontar o valor e em seguida o valor da posição do array;
+
+## Objetos
+PHP possui o paradigma de __orientação a objetos__; <br>
+Podemos criar __classes e objetos__, e o objeto é considerado um tipo de dados; <br>
+Objetos possuem __métodos__ que são suas ações e __propriedades__ que são suas características; <br>
