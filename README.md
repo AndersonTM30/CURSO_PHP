@@ -96,3 +96,11 @@ Objetos possuem __métodos__ que são suas ações e __propriedades__ que são s
 O tipo de dados Null tem apenas um valor, o __NULL__; <br>
 Um caso de uso do Null seria checar se uma variável tem ou não valor; <br>
 Podemos checar se um valor é null com a função __is_null()__; <br>
+
+## Variáveis
+São a forma que temos para __declarar um valor e salvá-lo na memória__; <br>
+Uma variável em PHP tem o __$__ na frente do seu nome; <br>
+Ex: ``` $nome = 'Nome'; ``` <br>
+Podemos salvar __qualquer tipo de dado__; <br>
+Podemos __alterar o valor de uma variável__ no decorrer do programa; <br>
+Podemos imprimir o valor de uma variável com o método __echo__;
