@@ -104,3 +104,13 @@ Ex: ``` $nome = 'Nome'; ``` <br>
 Podemos salvar __qualquer tipo de dado__; <br>
 Podemos __alterar o valor de uma variável__ no decorrer do programa; <br>
 Podemos imprimir o valor de uma variável com o método __echo__;
+
+## Variável de variável
+Podemos criar uma __variável por meio do nome de outra variável__, com um valor diferente; <br>
+O símbolo para esta função é __$$__; <br>
+Exemplo: <br>
+```
+$x = 'teste';
+$$x = 5;
+```
+Após a Execução do código, a variável teste(conteúdo de $x), será criada com o valor 5;
