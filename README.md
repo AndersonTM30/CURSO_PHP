@@ -114,3 +114,13 @@ $x = 'teste';
 $$x = 5;
 ```
 Após a Execução do código, a variável teste(conteúdo de $x), será criada com o valor 5;
+
+## Variável por referência
+Podemos criar uma __variável com referência a outra__; <br>
+O símbolo é __=&__; <br>
+Se mudamos a variável de refer~encia a referenciada muda o valor e ao contrário também gera a mudança; <br>
+Exemplo:
+```
+$x = 2;
+$y =& $x;
+```
