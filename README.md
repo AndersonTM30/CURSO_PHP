@@ -136,3 +136,10 @@ __Parâmetros de função__: variáveis passadas para uma função, podendo ser 
 A variável local tem seu __escopo definido dentro de uma função__; <br>
 Ela __não é acessível__ fora da mesma; <br>
 O __seu valor sempre é resetado__ quando a função é finalizada; <br>
+
+## Variável Global
+A principal característica da variável global __é ser declarada fora de funções__; <br>
+Por comportamento padrão __não são acessíveis dentro de funções__; <br>
+Precisamos utilizar a palavra __global__ para isso; <br>
+Essa função da variável global não ser acessível dentro de funções; <br>
+previne muitos problemas no software;
