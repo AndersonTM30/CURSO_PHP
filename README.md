@@ -131,3 +131,8 @@ __Local__: variável declarada em uma função; <br>
 __Global__: variável declarada fora de funções; <br>
 __Static__: variável declarada dentro de uma função, porém o seu valor permanece salve entre chamadas da função; <br>
 __Parâmetros de função__: variáveis passadas para uma função, podendo ser utilizadas ao longo da mesma;
+
+## Variável Local
+A variável local tem seu __escopo definido dentro de uma função__; <br>
+Ela __não é acessível__ fora da mesma; <br>
+O __seu valor sempre é resetado__ quando a função é finalizada; <br>
