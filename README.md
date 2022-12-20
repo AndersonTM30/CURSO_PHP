@@ -124,3 +124,10 @@ Exemplo:
 $x = 2;
 $y =& $x;
 ```
+
+## Escopo de variáveis
+Como em outras linguagens, no PHP também temos escopo de variáveis; <br>
+__Local__: variável declarada em uma função; <br>
+__Global__: variável declarada fora de funções; <br>
+__Static__: variável declarada dentro de uma função, porém o seu valor permanece salve entre chamadas da função; <br>
+__Parâmetros de função__: variáveis passadas para uma função, podendo ser utilizadas ao longo da mesma;
