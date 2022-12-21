@@ -148,3 +148,9 @@ previne muitos problemas no software;
 A variável estática é declarada com a instrução __static__; <br>
 O valor da mesma __é mantido e alterado a cada execução de uma função__; <br>
 É importante esse comportamento pois as variáveis de __escopo local sempre são resetadas__;
+
+## Parâmetro de função
+Os parâmetros de função __também são considerados tipos de variáveis__;<br>
+Este recurso nos ajuda a __criar funções com valores dinâmicos__;<br>
+Podendo __alterá-los a cada invocação__ da mesma; <br>
+Podemos passar mais de um parâmetro para uma função;
