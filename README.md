@@ -154,3 +154,9 @@ Os parâmetros de função __também são considerados tipos de variáveis__;<br
 Este recurso nos ajuda a __criar funções com valores dinâmicos__;<br>
 Podendo __alterá-los a cada invocação__ da mesma; <br>
 Podemos passar mais de um parâmetro para uma função;
+
+## O que é uma expressão?
+Uma __instução de código__ que será avaliada __e resultará em um valor__; <br>
+Uma __simples impressão de um texto__ é uma expressão; <br>
+__Uma soma ou operação matemática mais complexa__ também; <br>
+Na programação realizamos __diversas expressões__ durante nosso código, para formar nosso software;
