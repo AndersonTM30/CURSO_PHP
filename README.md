@@ -160,3 +160,9 @@ Uma __instução de código__ que será avaliada __e resultará em um valor__; <
 Uma __simples impressão de um texto__ é uma expressão; <br>
 __Uma soma ou operação matemática mais complexa__ também; <br>
 Na programação realizamos __diversas expressões__ durante nosso código, para formar nosso software;
+
+## O que é um operador?
+Operadores são __recursos que utilizamos para compor expressões mais complexas__; <br>
+Alguns deles: +, -, **, /, ++, >, <, >=, <= e etc... <br>
+Estas operações podem ser matemáticas ou até mesmo comparações; <br>
+A ideia principal é que um __novo valor é gerado__ ou também um __booleano pode ser  retornando__; <br>
