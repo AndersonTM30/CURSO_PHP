@@ -143,3 +143,8 @@ Por comportamento padrão __não são acessíveis dentro de funções__; <br>
 Precisamos utilizar a palavra __global__ para isso; <br>
 Essa função da variável global não ser acessível dentro de funções; <br>
 previne muitos problemas no software;
+
+## Variável Estática
+A variável estática é declarada com a instrução __static__; <br>
+O valor da mesma __é mantido e alterado a cada execução de uma função__; <br>
+É importante esse comportamento pois as variáveis de __escopo local sempre são resetadas__;
