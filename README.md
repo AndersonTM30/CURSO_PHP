@@ -173,3 +173,10 @@ Ou seja, em: 2 + 2 * 4, teremos o resultado de __10__; <br>
 Pois a __multiplicação é avaliada antes da soma__; <br>
 Mesmo que a primeira operação seja soma; <br>
 Podemos utilizar os __()__ para separar operações; <br>
+
+## Mudança de tipo implícito
+O PHP em certas operações __muda o tipo de dado__ de forma implícita; <br>
+Por exemplo 5 / 2 = 2.5 (gera um __float__); <br>
+E 5 .5  resulta em 55 (gera uma __string__, o __.__ é o operador de concatenação); <br>
+Por isso, temos que __tomar cuidado__ com algumas expressões que podem gerar resultados indesejados; <br>
+Este recurso é chamado de __auto cast__; 
