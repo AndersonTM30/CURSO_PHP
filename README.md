@@ -166,3 +166,10 @@ Operadores são __recursos que utilizamos para compor expressões mais complexas
 Alguns deles: +, -, **, /, ++, >, <, >=, <= e etc... <br>
 Estas operações podem ser matemáticas ou até mesmo comparações; <br>
 A ideia principal é que um __novo valor é gerado__ ou também um __booleano pode ser  retornando__; <br>
+
+## Ordem dos operadores
+O PHP e as linguagens de programação __executam os operadores na mesma ordem que na matemática__; <br>
+Ou seja, em: 2 + 2 * 4, teremos o resultado de __10__; <br>
+Pois a __multiplicação é avaliada antes da soma__; <br>
+Mesmo que a primeira operação seja soma; <br>
+Podemos utilizar os __()__ para separar operações; <br>
