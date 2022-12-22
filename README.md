@@ -180,3 +180,10 @@ Por exemplo 5 / 2 = 2.5 (gera um __float__); <br>
 E 5 .5  resulta em 55 (gera uma __string__, o __.__ é o operador de concatenação); <br>
 Por isso, temos que __tomar cuidado__ com algumas expressões que podem gerar resultados indesejados; <br>
 Este recurso é chamado de __auto cast__; 
+
+## Operadores aritméticos
+Temos os __operadores básicos__ da matemática em PHP; <br>
+Soma: + <br>
+Subtração: - <br>
+Divisão: / <br>
+Multiplicação: * <br>
