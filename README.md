@@ -187,3 +187,8 @@ Soma: + <br>
 Subtração: - <br>
 Divisão: / <br>
 Multiplicação: * <br>
+
+## Operador de módulo
+O operador de módulo é inserido no código pelo símbolo de __%__; <br>
+Sua função é realizar __uma divisão__; <br>
+Mas como resultado ele __apresenta apenas o resto__ da mesma; <br>
