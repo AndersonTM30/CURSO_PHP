@@ -196,3 +196,8 @@ Mas como resultado ele __apresenta apenas o resto__ da mesma; <br>
 ## Operador de Exponenciação
 Podemos realizar o cálculo de potência com o símbolo __**__, exemplo: __5 ** 2__; <br>
 Desta maneira teremos o rsultado de __5 elevado a 2__; <br>
+
+## Operador de concatenação
+Em PHP podemos concatenar valores com __.__ (ponto); <br>
+Concatenar é o ato de __juntar vários textos e/ou números__ em apenas uma string; <br>
+__Não há limites__ de quantes expressões podem ser concatenadas;
