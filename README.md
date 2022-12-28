@@ -201,3 +201,9 @@ Desta maneira teremos o rsultado de __5 elevado a 2__; <br>
 Em PHP podemos concatenar valores com __.__ (ponto); <br>
 Concatenar é o ato de __juntar vários textos e/ou números__ em apenas uma string; <br>
 __Não há limites__ de quantes expressões podem ser concatenadas;
+
+## Auto incremento e auto decremento
+Podemos incrementar um valor ou decrementar com os operadores: __++__ e __--__; <br>
+Exemplo: ``` $n++ ou $x--```; <br>
+Onde n e x são variáveis, e __terão seus valores alterados com +1 e -1__; <br>
+Estes operadores são muito utilizados em __estruturas de repetição__; <br>
