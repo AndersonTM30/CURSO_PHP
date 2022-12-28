@@ -207,3 +207,21 @@ Podemos incrementar um valor ou decrementar com os operadores: __++__ e __--__; 
 Exemplo: ``` $n++ ou $x--```; <br>
 Onde n e x são variáveis, e __terão seus valores alterados com +1 e -1__; <br>
 Estes operadores são muito utilizados em __estruturas de repetição__; <br>
+
+## Operadores de comparação
+As opreações com operadores de comparação resultarão em true or false; <br>
+Igualdade: __==__; <br>
+Idêntico a: __===__; <br>
+Diferença: __!=__; <br>
+Não idêntico a: __!==__; <br>
+Maior e maior ou igual a: __> e >=__; <br>
+Menor e menor ou igual a: __< e <=__; <br>
+
+## Operador de igualdade
+Com o __operador de igualdade__ verificamos se um valor é igual ao outro; <br>
+Símbolo é __==__; <br>
+Exemplo:
+```
+    5 == 4 # false
+    3 == 3 # true
+```
