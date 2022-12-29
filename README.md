@@ -243,3 +243,12 @@ Exemplo:
     5 != 5 #false
     10 != 5 #true
 ```
+
+## Operador não idêntico a
+Com o __operador não idêntico a__ verificamos se um valor é diferente de outro, avaliando o seu tipo também; <br>
+O símbolo é: __!=__; <br>
+Exemplo: 
+```
+    5 !== 4 #false
+    3 !== "3" #true
+```
