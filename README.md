@@ -234,3 +234,12 @@ Exemplo:
     5 === 5 #true
     3 === "3" #false
 ```
+
+## Operador de diferença
+Com o __operador de diferença verificamos se um valor é diferente de outro; <br>
+O símbolo é: __!=__; <br>
+Exemplo: 
+```
+    5 != 5 #false
+    10 != 5 #true
+```
