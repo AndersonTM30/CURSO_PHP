@@ -225,3 +225,12 @@ Exemplo:
     5 == 4 # false
     3 == 3 # true
 ```
+
+## Operador idêntico a
+Com o __operador idêncitco a__ verificamos se um valor é igual ao outro, avaliando o seu tipo também; <br>
+O símbolo é: __===__; <br>
+Exemplo:
+```
+    5 === 5 #true
+    3 === "3" #false
+```
