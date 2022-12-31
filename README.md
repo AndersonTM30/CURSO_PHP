@@ -260,3 +260,11 @@ Exemplo: **5 > 4 #true**; <br>
 Com o **operador mairo ou igual** verificamos se um valor é maior ou igual a outro; <br>
 O símbolo é **>=**; <br>
 Exemplo: **5 >=5 $true**; <br>
+
+## Operador menor e menor ou igual
+Com o **operador menor que** verificamos se um valor é menor que outro; <br>
+O símbolo é **<**; <br>
+Exemplo: **5 < 4 #false**; <br>
+Com o **operador menor ou igual a** verificamos se um valor é menor ou igual a outro; <br>
+O símbolo é **<=**; <br>
+Exemplo: **11 <= 12 #true**; <br>
