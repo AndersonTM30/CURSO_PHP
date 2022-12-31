@@ -286,3 +286,9 @@ O operador lógico **OR** resulta em **verdadeiro** caso **qualquer um dos lados
 E só resulta em **falso** caso os **dois lados sejam falsos**; <br>
 Símbolo: **||**; <br>
 Exemplo: **5 > 15 || "teste" == "teste" $true**; <br>
+
+## Operador lógico NOT
+O operador lógico **NOT** apenas **inverte o resultado booleano** de uma operação, se ela era originalmente **true**, retornará **false** e virse-versa; <br>
+Símbolo: **!**; <br>
+Exemplo: **!true # false**; <br>
+Exemplo 2 : **!(5 > 2) #false**; <br>
