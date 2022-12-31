@@ -299,8 +299,16 @@ Com os **operadores de conversão** podemos **forçar uma variável ser de um de
 Operadores: **int, bool, float, string, array, object e unset**; <br>
 Exemplo : **$a = (float) "5.34243"** #string é convertida para float; <br>
 
-Operadores de atribuição
+## Operadores de atribuição
 Com estes operadores podemos **atribuir valor a uma variável**; <br>
 O mais conhecido é o **=**, porém temos algumas varições do mesmo; <br>
 Operadores: **+=, -=, *=, /= e %=**; <br>
 Cada um destes fará uma **operação antes da atribuição**; <br>
+
+## Operador ternário
+Este operador constitui uma **estrutura de condição resumida**; <br>
+**Na maioria dos casos** vamos optar por if/else; <br>
+Porém em situações simples podemos utilizar o ternário; <br>
+Exemplo: ``` 5 > 2 ? echo "5 é maior que dois" : echo "5 é menor que 2"```; <br>
+A primeira interrogação vem **antes da comparação**; <br>
+E o **:** é utilizado para uma segunda situação, caso a primeira seja falsa; <br>
