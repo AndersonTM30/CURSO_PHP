@@ -298,3 +298,9 @@ Com os **operadores de conversão** podemos **forçar uma variável ser de um de
 **Nem todos são úteis**, os mais utilizados são para converter uma string em número; <br>
 Operadores: **int, bool, float, string, array, object e unset**; <br>
 Exemplo : **$a = (float) "5.34243"** #string é convertida para float; <br>
+
+Operadores de atribuição
+Com estes operadores podemos **atribuir valor a uma variável**; <br>
+O mais conhecido é o **=**, porém temos algumas varições do mesmo; <br>
+Operadores: **+=, -=, *=, /= e %=**; <br>
+Cada um destes fará uma **operação antes da atribuição**; <br>
