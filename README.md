@@ -252,3 +252,11 @@ Exemplo:
     5 !== 4 #false
     3 !== "3" #true
 ```
+
+## Operador maior e maior ou igual
+Com o **operador maior que** verificamos se um valor é maior que outro; <br>
+O símbolo é **>**; <br>
+Exemplo: **5 > 4 #true**; <br>
+Com o **operador mairo ou igual** verificamos se um valor é maior ou igual a outro; <br>
+O símbolo é **>=**; <br>
+Exemplo: **5 >=5 $true**; <br>
