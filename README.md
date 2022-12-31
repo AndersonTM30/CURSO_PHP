@@ -280,3 +280,9 @@ Os operadores lógicos em conjunto dos de comparação **também retornam um boo
 No caso de **AND** temos **true** apenas quando **as duas comparações são verdadeiras**; <br>
 Símbolo: **&&**; <br>
 Exemplo **5 > 2 && 10 < 100 $true**; <br>
+
+## Operador lógico OR
+O operador lógico **OR** resulta em **verdadeiro** caso **qualquer um dos lados da operação seja verdadeiro**; <br>
+E só resulta em **falso** caso os **dois lados sejam falsos**; <br>
+Símbolo: **||**; <br>
+Exemplo: **5 > 15 || "teste" == "teste" $true**; <br>
