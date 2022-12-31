@@ -268,3 +268,9 @@ Exemplo: **5 < 4 #false**; <br>
 Com o **operador menor ou igual a** verificamos se um valor é menor ou igual a outro; <br>
 O símbolo é **<=**; <br>
 Exemplo: **11 <= 12 #true**; <br>
+
+## Operadores lógicos
+Com os operadores lógicos podemos **encadear várias comparações**; <br>
+Operador AND: **&&**; <br>
+Operador OR: **||**; <br>
+Operador NOT: **!**; <br>
