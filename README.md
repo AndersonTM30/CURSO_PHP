@@ -292,3 +292,9 @@ O operador lógico **NOT** apenas **inverte o resultado booleano** de uma opera�
 Símbolo: **!**; <br>
 Exemplo: **!true # false**; <br>
 Exemplo 2 : **!(5 > 2) #false**; <br>
+
+## Operadores de conversão (cast)
+Com os **operadores de conversão** podemos **forçar uma variável ser de um determinado tipo**; <br>
+**Nem todos são úteis**, os mais utilizados são para converter uma string em número; <br>
+Operadores: **int, bool, float, string, array, object e unset**; <br>
+Exemplo : **$a = (float) "5.34243"** #string é convertida para float; <br>
