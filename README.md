@@ -274,3 +274,9 @@ Com os operadores lógicos podemos **encadear várias comparações**; <br>
 Operador AND: **&&**; <br>
 Operador OR: **||**; <br>
 Operador NOT: **!**; <br>
+
+## Operador lógico AND
+Os operadores lógicos em conjunto dos de comparação **também retornam um booleano** (true ou false); <br>
+No caso de **AND** temos **true** apenas quando **as duas comparações são verdadeiras**; <br>
+Símbolo: **&&**; <br>
+Exemplo **5 > 2 && 10 < 100 $true**; <br>
