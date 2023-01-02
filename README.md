@@ -317,3 +317,15 @@ E o **:** é utilizado para uma segunda situação, caso a primeira seja falsa; 
 A estrutura **if** checa se uma expressão é verdadeira; <br>
 Podemos incluir **operadores lógicos nas expressões**; <br>
 Exemplo: **if(expressão){bloco de código}**; <br>
+
+## Estrutura else
+A estrutura **else** pode executar um outro bloco de código, isso acontece quando a expressão de if é falsa; <br>
+Em else **não inserimos expressões**; <br>
+Exemplo:
+```
+if(exp) {
+
+}else {
+    
+}
+```
