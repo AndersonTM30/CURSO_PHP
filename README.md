@@ -312,3 +312,8 @@ Porém em situações simples podemos utilizar o ternário; <br>
 Exemplo: ``` 5 > 2 ? echo "5 é maior que dois" : echo "5 é menor que 2"```; <br>
 A primeira interrogação vem **antes da comparação**; <br>
 E o **:** é utilizado para uma segunda situação, caso a primeira seja falsa; <br>
+
+## Estrutura If
+A estrutura **if** checa se uma expressão é verdadeira; <br>
+Podemos incluir **operadores lógicos nas expressões**; <br>
+Exemplo: **if(expressão){bloco de código}**; <br>
