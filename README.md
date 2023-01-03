@@ -349,7 +349,12 @@ Exemplo:
 ```
     if(exp) {
         else if(exp) {
-            
+
         }
     }
 ```
+
+## Switch
+O **switch** é uma estrutura de condição, que pode substituir o if em alguns casos; <br>
+Podemos adicionar a instrução **break**, para ele não ser mais executado; <br>
+Há a possibilidade também de adicionar a instrução **default**, que é executada caso nenhuma condição seja satisfeita; <br>
