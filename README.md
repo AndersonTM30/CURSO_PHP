@@ -329,3 +329,14 @@ if(exp) {
     
 }
 ```
+
+## If aninhado
+Podemos também inserir **um if dentro de outro if**; <br>
+Neste caso o segundo bloco precisa apenas ficar dentro do primeiro if, exemplo;
+```
+    if(exp) {
+        if(exp) {
+            
+        }
+    }
+```
