@@ -358,3 +358,14 @@ Exemplo:
 O **switch** é uma estrutura de condição, que pode substituir o if em alguns casos; <br>
 Podemos adicionar a instrução **break**, para ele não ser mais executado; <br>
 Há a possibilidade também de adicionar a instrução **default**, que é executada caso nenhuma condição seja satisfeita; <br>
+
+## While
+O while é uma **estrutura de repetição**, pode executar um código n vezes; <br>
+Até **satisfazer a sua condição**; <br>
+Geralmente é necessário um **contador** para atingir a condição; <br>
+Exemplo: 
+```
+    while(condicao) {
+        código
+    }
+```
