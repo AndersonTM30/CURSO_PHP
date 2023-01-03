@@ -369,3 +369,9 @@ Exemplo:
         código
     }
 ```
+
+## Saindo de loop
+Podemos sair de um loop while **antes do seu fim**; <br>
+Para isso é necessário adicionar a instrução **break**; <br>
+Após interpretada, **o loop será automaticamente finalizado**; <br>
+Geralmente inserimos esta instrução em uma **condição if**; <br>
