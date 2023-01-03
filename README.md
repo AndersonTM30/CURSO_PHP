@@ -340,3 +340,16 @@ Neste caso o segundo bloco precisa apenas ficar dentro do primeiro if, exemplo;
         }
     }
 ```
+
+## Else if
+Com o **else if** podemos criar um **novo bloco de expressão**; <br>
+Este bloco **será executado caso o primeiro if seja falso**; <br>
+O else if fica entre o **if** e o **else**; <br>
+Exemplo:
+```
+    if(exp) {
+        else if(exp) {
+            
+        }
+    }
+```
