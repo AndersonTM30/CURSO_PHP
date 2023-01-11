@@ -381,3 +381,8 @@ Como nas estruturas de if, podemos **adicionar um loop dentro de outro**; <br>
 O **contador dever ser único**, para que um loop não afete o outro; <br>
 O loop interno será executado tantas vezes quanto o loop externo for; <br>
 E em cada uma das suas execuções, serão passadas todas as suas etapas; <br>
+
+## Continue
+O **continue** pula uma execução do loop; <br>
+Ou seja, quando o interpretador encontrar esta instrução, **a proóxima etapa do loop será executada**; <br>
+Novamente constumamos aplicar **dentro de uma estrutura de condição**;<br>
