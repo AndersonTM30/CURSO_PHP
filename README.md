@@ -375,3 +375,9 @@ Podemos sair de um loop while **antes do seu fim**; <br>
 Para isso é necessário adicionar a instrução **break**; <br>
 Após interpretada, **o loop será automaticamente finalizado**; <br>
 Geralmente inserimos esta instrução em uma **condição if**; <br>
+
+## Loop dentro de loop
+Como nas estruturas de if, podemos **adicionar um loop dentro de outro**; <br>
+O **contador dever ser único**, para que um loop não afete o outro; <br>
+O loop interno será executado tantas vezes quanto o loop externo for; <br>
+E em cada uma das suas execuções, serão passadas todas as suas etapas; <br>
