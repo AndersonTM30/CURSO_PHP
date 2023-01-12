@@ -386,3 +386,13 @@ E em cada uma das suas execuções, serão passadas todas as suas etapas; <br>
 O **continue** pula uma execução do loop; <br>
 Ou seja, quando o interpretador encontrar esta instrução, **a proóxima etapa do loop será executada**; <br>
 Novamente constumamos aplicar **dentro de uma estrutura de condição**;<br>
+
+## Do While
+O **do while** é também uma estrutura de repetição; <br>
+Porém **menos utilizada** que o while; <br>
+A sintaxe é invertida, veja um exemplo:
+```
+    do {
+        codigo
+    } while(condicao);
+```
