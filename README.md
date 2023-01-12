@@ -396,3 +396,13 @@ A sintaxe é invertida, veja um exemplo:
         codigo
     } while(condicao);
 ```
+
+## A estrutura for
+A **for** é com certeza a estrutura de repetição mais utilizada; <br>
+Sua **sintaxe é mais organizada**, em apenas uma linha e apresenta ser mais difícil, ao primeiro olhar; <br>
+Exemplo: 
+```
+    for(contador; condicao; incremento) {
+        codigo
+    }
+```
