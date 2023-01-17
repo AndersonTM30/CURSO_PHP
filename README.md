@@ -435,3 +435,8 @@ Podendo assim **utilizar tudo que está declarado no arquivo incluído**; <br>
 O require **gera erro fatal** se o arquivo não existir, parando o script; <br>
 Exemplo:
 ``` require "arquivo.ext"```;
+
+## include_once require_once
+Os dois **funcionam da mesma maneira** que o rquire e include; <br>
+Porém **impedem que o mesmo arquivo seja adicionado mais de uma vez** na página; <br>
+Este **pode ser o método mais indicado** quando estamos montando templates com PHP; <br>
