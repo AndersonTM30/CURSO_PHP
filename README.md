@@ -428,3 +428,10 @@ Podendo assim **utilizar tudo que está declarado no arquivo incluído**; <br>
 O include **não gera erro fatal** se o arquivo não existir, e sim um **warning**; <br>
 Exemplo:
 ``` include "arquivos.ext"```;
+
+## Require
+Com o **require** inserimos um arquivo de PHP, ou até mesmo um HTML, em outro; <br>
+Podendo assim **utilizar tudo que está declarado no arquivo incluído**; <br>
+O require **gera erro fatal** se o arquivo não existir, parando o script; <br>
+Exemplo:
+``` require "arquivo.ext"```;
