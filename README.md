@@ -411,3 +411,13 @@ Exemplo:
 O **loop infinito** é um erro que pode ser ocasionado quando uma estrutura de repetição não tem uma condição de término que seja possível; <br>
 **Por exemplo**: x > 10 e a variável de referência tem um decremento, não um incremento; <br>
 Isso vai fazer **o software trava**, e pode ser um grande problema caso usuários estejam acessando o mesmo; <br>
+
+## Foreach
+A **foreach** também é uma estrutura de repetição; <br>
+Porém, **ela é orientada a um array**, devemos utilizar um para que a estrutura repita em todos os elementos do mesmo; <br>
+Exemplo:
+```
+    foreach($array as $item) {
+        codigo
+    }
+```
