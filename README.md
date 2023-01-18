@@ -451,3 +451,8 @@ Exemplo: ``` <? echo "teste"; ?> ```;
 Com uma **técnica semelhante ao short tags**, podemos exibir conteúdo sem o echo; <br>
 Ótima estratégia para resumir as chamados PHP **apenas para exibição de valores**; <br>
 Exemplo: ``` <?= "teste"; ?> ```;
+
+## Inserindo PHP ao HTML
+Podemos **inserir código dinâmico entre nossas tags**; <br>
+As extensões para este tipo de arquivo podem ser de **.php** ou **.phtml**; <br>
+Exemplo: ``` <h1><?= $titulo; ?></h1> ```;
