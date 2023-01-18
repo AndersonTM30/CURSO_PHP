@@ -440,3 +440,9 @@ Exemplo:
 Os dois **funcionam da mesma maneira** que o rquire e include; <br>
 Porém **impedem que o mesmo arquivo seja adicionado mais de uma vez** na página; <br>
 Este **pode ser o método mais indicado** quando estamos montando templates com PHP; <br>
+
+## Short tags
+A **short tag** é uma funcionalidade para adicionar código PHP em uma página; <br>
+Este recurso **depende de uma configuração do servidor** para funcionar; <br>
+Por isso é desencorajado seu uso, **pode ser que o código não funcione**; <br>
+Exemplo: ``` <? echo "teste"; ?> ```;
