@@ -456,3 +456,11 @@ Exemplo: ``` <?= "teste"; ?> ```;
 Podemos **inserir código dinâmico entre nossas tags**; <br>
 As extensões para este tipo de arquivo podem ser de **.php** ou **.phtml**; <br>
 Exemplo: ``` <h1><?= $titulo; ?></h1> ```;
+
+## O que são funções?
+São **blocos de códigos** que **possuem nomes**; <br>
+**Realizam uma ação** e **podem ser reaproveitadas** (chamadas novamente) ao longo do programa; <br>
+Podemos passar parâmetros para funções, que moldam a sua execução; <br>
+A criação de funções **reduz a duplicidade** de código; <br>
+E também **melhora a manutenção** do mesmo; <br>
+O PHP possui **diversas funções prontas**, que podemos utilizar;<br>
