@@ -464,3 +464,10 @@ Podemos passar parâmetros para funções, que moldam a sua execução; <br>
 A criação de funções **reduz a duplicidade** de código; <br>
 E também **melhora a manutenção** do mesmo; <br>
 O PHP possui **diversas funções prontas**, que podemos utilizar;<br>
+
+## Chamando funções
+Para chamar uma função basta colocar o seu **nome e abrir e fechar parênteses**; <br>
+Exemplo: ``` funcaoTeste() ```; <br>
+Algumas funções **exigem parâmetros**; <br>
+O ato de chamar uma função também é conhecido como **invocar**; <br>
+O PHP tem diversas funções para utilizarmos no nosso código, exemplos: ``` strlen strtoupper, strtolower, print_t, var_dump ```; <br>
