@@ -471,3 +471,15 @@ Exemplo: ``` funcaoTeste() ```; <br>
 Algumas funções **exigem parâmetros**; <br>
 O ato de chamar uma função também é conhecido como **invocar**; <br>
 O PHP tem diversas funções para utilizarmos no nosso código, exemplos: ``` strlen strtoupper, strtolower, print_t, var_dump ```; <br>
+
+## Função com parâmetro
+Podemos passar **parâmetros** para a função; <br>
+Estes **parâmetros são como variáveis**, que são utilizados dentro da função para moldar a sua execução; <br>
+**Não há número máximo** de parâmetros; <br>
+Exemplo:
+```
+    function teste(param, param2)
+    {
+        // codigo
+    }
+```
