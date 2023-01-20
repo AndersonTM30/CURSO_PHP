@@ -514,3 +514,13 @@ Exemplo:
 No PHP temos duas funções interessantes para aprender mais sobre funções; <br>
 **func_get_arg** = retorna uma lista com os argumentos de uma função; <br>
 **func_num_args** = retorna o número de argumentos de uma função; <br>
+
+## Retornando múltiplos valores
+Caso seja necessário retornanr vários valores em uma função, podemos **formar um array para retorno**; <br>
+E então **acessar os índices de forma isolada** com a nova variável que contém o retorno; <br>
+contém o retorno:
+```
+    function teste() {
+        return ["a", 10, true];
+    }
+```
