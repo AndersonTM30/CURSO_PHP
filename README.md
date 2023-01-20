@@ -530,3 +530,13 @@ Utilizamos duas funções para verificar dados formatados; <br>
 **print_r** e **var_dump**; <br>
 As duas apresentam os dados de forma semelhante; <br>
 Porém var_dump exibe de uma forma "**human readable**", traduzindo seria algo como "para humanos lerem"; <br>
+
+## Interpolando variáveis
+Podemos **interporlar variáveis em strings** de duas formas; <br>
+Utilizando **aspas duplas e colocando a variável** e também **com chaves e o nome da variável**; <br>
+**Não há diferença** em ambas as formas; <br>
+Exemplo:
+```
+    "Interpolando a variável $teste";
+    "Interpolando a variável {$teste}";
+```
