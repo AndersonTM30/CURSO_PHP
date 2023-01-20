@@ -498,3 +498,14 @@ Exemplo:
 Nas funções temos um escopo específico chamado de **local**, onde as suas variáveis são exclusivamente delas; <br>
 Podemos utilizar as variáveis globais com a instrução **global**; <br>
 E também há o **static**, onde podemos manter um valor após a execução de uma função, o que normalmente é resetado; <br>
+
+## Parâmetros default
+Podemos passar parâmetros que já possuem um valor pré-determinado; <br>
+Então caso você não passe este parâmetro, o valor **default** entra em cena; <br>
+A **função será executada normalmente** com o valor definido; <br>
+Exemplo:
+```
+    function teste($a = "padrão"){
+        // codigo
+    }
+```
