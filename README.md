@@ -561,3 +561,8 @@ Exemplo: ``` print("testando");```;
 A função **printf** tem a funcionalidade semelhante a print; <br>
 Porém podemos imprimir valores de forma dinâmica utilizando o símbolo **%**; <br>
 Exemplo: ``` print("Número %d", 1);```;
+
+## Tamanho da string
+Utilizando a função **strlen** com uma string como parâmetro, vamos receber o tamanho da string; <br>
+Ou seja, a **quantidade de caracteres** da mesma; <br>
+Exemplo: ```strlen($texto);```;
