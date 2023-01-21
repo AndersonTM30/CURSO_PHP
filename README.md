@@ -578,3 +578,10 @@ for($x = 0; $x < strlen($str); $x++) {
     //codigo
 }
 ```
+
+## Limpando uma String
+Podemos remover os espaços em branco de uma string com funções de PHP; <br>
+**trim** - limpa espaços antes e depois da string; <br>
+**ltrim** - limpa espaços na parte inicial da string; <br>
+**rtrim** - limpa espaços na parte final da string; <br>
+Desta forma conseguimos remover os espaços desnecessários inseridos pelos usuários; <br>
