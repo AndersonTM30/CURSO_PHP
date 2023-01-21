@@ -540,3 +540,14 @@ Exemplo:
     "Interpolando a variável $teste";
     "Interpolando a variável {$teste}";
 ```
+
+## Valores de escape
+Podemos utilizar alguns valores que **executam funções especiais em strings**; <br>
+Preecisamos utilizar **aspas duplas**; <br>
+Exemplos; 
+```
+    \n = nova linha;
+    \t = tab;
+    \\ = barra invertida;
+    \$ = sinal de dólar;
+```
