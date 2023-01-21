@@ -551,3 +551,8 @@ Exemplos;
     \\ = barra invertida;
     \$ = sinal de dólar;
 ```
+
+## Função print
+A função **print** tem a funcionalidade semelhandte de echo; <br>
+Pode **imprimir uma string que foi passada como argumento**; <br>
+Exemplo: ``` print("testando");```;
