@@ -566,3 +566,15 @@ Exemplo: ``` print("Número %d", 1);```;
 Utilizando a função **strlen** com uma string como parâmetro, vamos receber o tamanho da string; <br>
 Ou seja, a **quantidade de caracteres** da mesma; <br>
 Exemplo: ```strlen($texto);```;
+
+## Percorrendo uma string
+Podemos percorrer cada um dos **caracteres de uma string**; <br>
+Para isso vamos utilizar uma **estrutura de repetição**; <br>
+E o método **strlen**, para saber o **número de caracteres**; <br>
+Com isso podemos iterar pela string completa; <br>
+Exemplo:
+```
+for($x = 0; $x < strlen($str); $x++) {
+    //codigo
+}
+```
