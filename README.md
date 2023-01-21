@@ -556,3 +556,8 @@ Exemplos;
 A função **print** tem a funcionalidade semelhandte de echo; <br>
 Pode **imprimir uma string que foi passada como argumento**; <br>
 Exemplo: ``` print("testando");```;
+
+## Função printf
+A função **printf** tem a funcionalidade semelhante a print; <br>
+Porém podemos imprimir valores de forma dinâmica utilizando o símbolo **%**; <br>
+Exemplo: ``` print("Número %d", 1);```;
