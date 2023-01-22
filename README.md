@@ -590,3 +590,8 @@ Desta forma conseguimos remover os espaços desnecessários inseridos pelos usu�
 Podemos alterar as strings para maiúsculas ou minúsculas com funções de PHP; <br>
 **strtolower** - todas as letras para minúsculas; <br>
 **strtoupper** - todas as letras para maiúsculas; <br>
+
+## Alterando o case de palavras
+Podemos alterar o case apenas das palavras com funções de PHP; <br>
+**ucfirst** - primeira letra da string em maiúscula; <br>
+**ucwords** - primeira letra de cada palavra em maiúscula; <br>
