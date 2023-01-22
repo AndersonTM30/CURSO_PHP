@@ -595,3 +595,7 @@ Podemos alterar as strings para maiúsculas ou minúsculas com funções de PHP;
 Podemos alterar o case apenas das palavras com funções de PHP; <br>
 **ucfirst** - primeira letra da string em maiúscula; <br>
 **ucwords** - primeira letra de cada palavra em maiúscula; <br>
+
+## Removendo tags HTML
+Podemos remover as tags de HTML de uma string com a função **stip_tags**; <br>
+Geralmente para salvar dados no banco removemos as tags; <br>
