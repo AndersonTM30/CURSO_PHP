@@ -585,3 +585,8 @@ Podemos remover os espaços em branco de uma string com funções de PHP; <br>
 **ltrim** - limpa espaços na parte inicial da string; <br>
 **rtrim** - limpa espaços na parte final da string; <br>
 Desta forma conseguimos remover os espaços desnecessários inseridos pelos usuários; <br>
+
+## Alterando o case
+Podemos alterar as strings para maiúsculas ou minúsculas com funções de PHP; <br>
+**strtolower** - todas as letras para minúsculas; <br>
+**strtoupper** - todas as letras para maiúsculas; <br>
