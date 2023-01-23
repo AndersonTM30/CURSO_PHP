@@ -615,3 +615,8 @@ Ela recebe a string que será invertida como parêmtro; <br>
 Com a função **str_repeat** você pode repetir n vezes uma determinada string; <br>
 O primeiro argumento é a string que será repetida; <br>
 O segundo é o número de repetições; <br>
+
+## String para array
+Podemos converter uma string em array com afunção **explode**; <br>
+Passamos primeiro o separador como argumento; <br>
+Depois a string que vai ser convertida; <br>
