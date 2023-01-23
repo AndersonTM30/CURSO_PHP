@@ -599,3 +599,10 @@ Podemos alterar o case apenas das palavras com funções de PHP; <br>
 ## Removendo tags HTML
 Podemos remover as tags de HTML de uma string com a função **stip_tags**; <br>
 Geralmente para salvar dados no banco removemos as tags; <br>
+
+## Resgatando uma parte da string
+Com a função **substr**, podemos resgatar apenas uma parte da string; <br>
+Exemplo: ``` substr(str, início, fim) ```; <br>
+**Str** é a string que vamos procurar algo; <br>
+**Inicio** é a string que vamos procurar algo; <br>
+**Fim** é o índice final da palavra ou texto; <br>
