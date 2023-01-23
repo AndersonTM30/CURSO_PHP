@@ -620,3 +620,8 @@ O segundo é o número de repetições; <br>
 Podemos converter uma string em array com afunção **explode**; <br>
 Passamos primeiro o separador como argumento; <br>
 Depois a string que vai ser convertida; <br>
+
+## Array para string
+Podemos converter um array em string com a função **implode**; <br>
+Passamos primeiro o separador como argumento; <br>
+Depois a string que vai ser convertida; <br>
