@@ -625,3 +625,8 @@ Depois a string que vai ser convertida; <br>
 Podemos converter um array em string com a função **implode**; <br>
 Passamos primeiro o separador como argumento; <br>
 Depois a string que vai ser convertida; <br>
+
+## Encontrando a primeira ocorrência
+Com a função **strpos** podemos encontrar algum texto na string; <br>
+Se recebermos **algum valor** é que o texto foi encontrado, e este valor é o índice inicial; <br>
+Se for retornado **false**, o texto não está na string; <br>
