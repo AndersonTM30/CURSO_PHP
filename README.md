@@ -610,3 +610,8 @@ Exemplo: ``` substr(str, início, fim) ```; <br>
 ## String reversa
 Podemos com PHP inverter uma string, a função **strrev** realiza esta ação; <br>
 Ela recebe a string que será invertida como parêmtro; <br>
+
+## Repetição de string
+Com a função **str_repeat** você pode repetir n vezes uma determinada string; <br>
+O primeiro argumento é a string que será repetida; <br>
+O segundo é o número de repetições; <br>
