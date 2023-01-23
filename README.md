@@ -606,3 +606,7 @@ Exemplo: ``` substr(str, início, fim) ```; <br>
 **Str** é a string que vamos procurar algo; <br>
 **Inicio** é a string que vamos procurar algo; <br>
 **Fim** é o índice final da palavra ou texto; <br>
+
+## String reversa
+Podemos com PHP inverter uma string, a função **strrev** realiza esta ação; <br>
+Ela recebe a string que será invertida como parêmtro; <br>
