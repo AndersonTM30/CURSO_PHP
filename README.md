@@ -633,10 +633,15 @@ Se for retornado **false**, o texto não está na string; <br>
 
 ## Encontrando a última ocorrência
 Com a função **strrpos** podemos encontrar a última ocorrência de um texto na string; <br>
-Se recebermos **algum valor** é que o texto foi encontrador, e este valor é o índice inicial; <br>
+Se recebermos **algum valor** é que o texto foi encontrado, e este valor é o índice inicial; <br>
 Se for retornado **false**, o texto não está na string;
 
 ## Retornando o resto da string 
 Com a função **strstr** podemos encontrar um texto em uma strign; <br>
-Se algo for encontrado, a função vai retornar o resto da string após o texto encontrador; <br>
+Se algo for encontrado, a função vai retornar o resto da string após o texto encontrado; <br>
 Se não encontrar nada retorna false; <br>
+
+# Decompor uma URL
+Com a função **parse_url** podemos decompor uma URL; <br>
+Vamos receber um array com todas as partes que a URL tem; <br>
+Alguns elementos que podem ser retornados são; protocolo, host parâmetros; <br>
