@@ -641,7 +641,13 @@ Com a função **strstr** podemos encontrar um texto em uma strign; <br>
 Se algo for encontrado, a função vai retornar o resto da string após o texto encontrado; <br>
 Se não encontrar nada retorna false; <br>
 
-# Decompor uma URL
+## Decompor uma URL
 Com a função **parse_url** podemos decompor uma URL; <br>
 Vamos receber um array com todas as partes que a URL tem; <br>
 Alguns elementos que podem ser retornados são; protocolo, host parâmetros; <br>
+
+## Adicionanado dados a um array
+Podemos **criar novos índices** com dados em um array; <br>
+Basta por o nome do array com o novo índice em colchetes e atribuir um valor; <br>
+Exemplo: ``` $arr[1] = "teste" ```; <br>
+E em array associativos basta utilizar o nome da nova chave com a atribuição de valor; <br>
