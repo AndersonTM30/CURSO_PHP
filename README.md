@@ -655,4 +655,9 @@ E em array associativos basta utilizar o nome da nova chave com a atribuição d
 ## Adicionando valor ao fim do array
 Podemos adicionar valor ao fim de um array utilizando a **atribuição sem determinar um índice**; <br>
 Então o valor atribuído será enviado para o último e novo índice do array; <br>
-Exemplo: ```$arr[] = 5; ```; <br>
+Exemplo: ```$arr[] = 5; ``` <br>
+
+## Criar array rapidamente
+Podemos utilizar a função **range** para criar um array de forma rápida; <br>
+Exemplo: ```range(1, 10);``` <br>
+Um array de 1 a 10 será criado, podemos atribuir este valor a uma variável; <br>
