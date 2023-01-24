@@ -630,3 +630,8 @@ Depois a string que vai ser convertida; <br>
 Com a função **strpos** podemos encontrar algum texto na string; <br>
 Se recebermos **algum valor** é que o texto foi encontrado, e este valor é o índice inicial; <br>
 Se for retornado **false**, o texto não está na string; <br>
+
+## Encontrando a última ocorrência
+Com a função **strrpos** podemos encontrar a última ocorrência de um texto na string; <br>
+Se recebermos **algum valor** é que o texto foi encontrador, e este valor é o índice inicial; <br>
+Se for retornado **false**, o texto não está na string;
