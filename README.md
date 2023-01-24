@@ -635,3 +635,8 @@ Se for retornado **false**, o texto não está na string; <br>
 Com a função **strrpos** podemos encontrar a última ocorrência de um texto na string; <br>
 Se recebermos **algum valor** é que o texto foi encontrador, e este valor é o índice inicial; <br>
 Se for retornado **false**, o texto não está na string;
+
+## Retornando o resto da string 
+Com a função **strstr** podemos encontrar um texto em uma strign; <br>
+Se algo for encontrado, a função vai retornar o resto da string após o texto encontrador; <br>
+Se não encontrar nada retorna false; <br>
