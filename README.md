@@ -661,3 +661,8 @@ Exemplo: ```$arr[] = 5; ``` <br>
 Podemos utilizar a função **range** para criar um array de forma rápida; <br>
 Exemplo: ```range(1, 10);``` <br>
 Um array de 1 a 10 será criado, podemos atribuir este valor a uma variável; <br>
+
+## Número de elementos
+Podemos obter o número de elementos de um array com a função **count**; <br>
+Basta passar o array como argumento; <br>
+Um inteiro será retornado; <br>
