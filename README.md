@@ -666,3 +666,8 @@ Um array de 1 a 10 será criado, podemos atribuir este valor a uma variável; <b
 Podemos obter o número de elementos de um array com a função **count**; <br>
 Basta passar o array como argumento; <br>
 Um inteiro será retornado; <br>
+
+## Array multidimensional
+Quando inserimos arrays dentro de arrays formamos um **array multidimensional**, também conhecido como matriz; <br>
+Para acessar este tipo de array também utilizamos índices, acessando o externo e depois os internos; <br>
+Exemplo: ``` $arr[1][0] => Primeiro elemento do segundo array ```; <br>
