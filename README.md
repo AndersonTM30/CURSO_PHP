@@ -651,3 +651,8 @@ Podemos **criar novos índices** com dados em um array; <br>
 Basta por o nome do array com o novo índice em colchetes e atribuir um valor; <br>
 Exemplo: ``` $arr[1] = "teste" ```; <br>
 E em array associativos basta utilizar o nome da nova chave com a atribuição de valor; <br>
+
+## Adicionando valor ao fim do array
+Podemos adicionar valor ao fim de um array utilizando a **atribuição sem determinar um índice**; <br>
+Então o valor atribuído será enviado para o último e novo índice do array; <br>
+Exemplo: ```$arr[] = 5; ```; <br>
