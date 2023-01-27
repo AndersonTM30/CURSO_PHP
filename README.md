@@ -671,3 +671,8 @@ Um inteiro será retornado; <br>
 Quando inserimos arrays dentro de arrays formamos um **array multidimensional**, também conhecido como matriz; <br>
 Para acessar este tipo de array também utilizamos índices, acessando o externo e depois os internos; <br>
 Exemplo: ``` $arr[1][0] => Primeiro elemento do segundo array ```; <br>
+
+## Criando muitas variáveis
+Podemos criar muitas variáveis com base em um array; <br>
+Para isso utilizar a função **list**; <br>
+Ex: ```list($nome, $idade, $profissao) = $pessoa```; <br>
