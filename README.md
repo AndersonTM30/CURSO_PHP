@@ -695,3 +695,8 @@ Com a função **array_key_exists** podemos verificar se há um valor em respect
 Podemos fazer essa checagem em um if; <br>
 Exemplo: ```array_key_exists("nome", $arr);```; <br>
 Outra função que podemos utilizar para este fim é a **isset**; <br>
+
+## Removendo elementos
+Podemos remover elementos de um array com a função **array_splice**; <br>
+Passamos como parâmetro o array, índice inicial e quantos elementos queremos remover; <br>
+Exemplo: ```array_splice($arr, 2, 1) => A partir do índice 2, remove 1 elemento; ``` <br>
