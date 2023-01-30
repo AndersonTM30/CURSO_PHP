@@ -676,3 +676,7 @@ Exemplo: ``` $arr[1][0] => Primeiro elemento do segundo array ```; <br>
 Podemos criar muitas variáveis com base em um array; <br>
 Para isso utilizar a função **list**; <br>
 Ex: ```list($nome, $idade, $profissao) = $pessoa```; <br>
+
+## Resgatando elementos de array
+Com a função **array_slice** podemos resgatar uma faixa de elementos de um array; <br>
+Passamos 3 parâmetros: o array, índice inicial e quantos elementos queremos regartar a partir do índice; <br>
