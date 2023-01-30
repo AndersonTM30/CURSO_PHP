@@ -685,3 +685,7 @@ Passamos 3 parâmetros: o array, índice inicial e quantos elementos queremos re
 Podemos dividir um array grande em diversos arrays de número de elementos iguais; <br>
 Vamos utilizar a função **array_chunk**; <br>
 Passamos o array como argumento e também o número de elemento que cada array deve ter; <br>
+
+## Chaves e valores
+Com a função **array_keys** recebemos um array apenas com as chaves de um array; <br>
+Com a função **array_values** recebemos um array com apenas os valores de um array; <br>
