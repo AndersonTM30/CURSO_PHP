@@ -680,3 +680,8 @@ Ex: ```list($nome, $idade, $profissao) = $pessoa```; <br>
 ## Resgatando elementos de array
 Com a função **array_slice** podemos resgatar uma faixa de elementos de um array; <br>
 Passamos 3 parâmetros: o array, índice inicial e quantos elementos queremos regartar a partir do índice; <br>
+
+## Dividindo arrayas
+Podemos dividir um array grande em diversos arrays de número de elementos iguais; <br>
+Vamos utilizar a função **array_chunk**; <br>
+Passamos o array como argumento e também o número de elemento que cada array deve ter; <br>
