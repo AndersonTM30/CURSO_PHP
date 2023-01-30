@@ -689,3 +689,9 @@ Passamos o array como argumento e também o número de elemento que cada array d
 ## Chaves e valores
 Com a função **array_keys** recebemos um array apenas com as chaves de um array; <br>
 Com a função **array_values** recebemos um array com apenas os valores de um array; <br>
+
+## Verificando se valor existe
+Com a função **array_key_exists** podemos verificar se há um valor em respectiva key de um array; <br>
+Podemos fazer essa checagem em um if; <br>
+Exemplo: ```array_key_exists("nome", $arr);```; <br>
+Outra função que podemos utilizar para este fim é a **isset**; <br>
