@@ -705,3 +705,8 @@ Exemplo: ```array_splice($arr, 2, 1) => A partir do índice 2, remove 1 elemento
 Com a função **extract** podemos criar variáveis rapidamente de arrays associativos; <br>
 O nome da chave será o nome da variável; <br>
 Se houver uma variável já criada com o nome da chave, a mesma será sobrescrita; <br>
+
+## Criando array com compact
+Com a função **compact** podemos criar um array a partir de variáveis; <br>
+Passamos para a função o nome das variaveis em string; <br>
+E então um novo array é criado, podemos atribuir a uma variável; <br>
