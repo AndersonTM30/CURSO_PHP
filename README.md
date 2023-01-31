@@ -728,8 +728,10 @@ Vamos passar dois argumentos para a função, exemplo: ``` in_array("item", $arr
 
 ## Ordenação de arrays
 Para ordenar em ordem crescente podemos utilizar a função **sort** em um array; <br>
+<<<<<<< HEAD
 Para ordenar de forma inversa utilizamos **rsort**; <br>
 
 ## Ordenação de arrays associativos
 Para ordernar em ordem crescente pelo valor das chaves, podemos utilizar a função **asort**; <br>
 Se quisermos ordenar o array pelas chaves, utilizamos o valor **ksort**; <br>
+
