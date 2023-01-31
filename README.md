@@ -720,3 +720,8 @@ Exemplo: ``` foreach($itens as $key => $value){}; ``` <br>
 A função **array_reduce** tem como objetivo reduzir um array a apenas um valor; <br>
 Podemos passar uma **segunda função como parâmetro**, para algum processo ser executado; <br>
 Exemplo: ``` array_reduce($arr, $funcao); ``` <br>
+
+## Buscando em arrays
+A função **in_array** verifica se um item passado por parâmetro está no array; <br>
+O retorno é true se encontrar o item e false se não encontrar; <br>
+Vamos passar dois argumentos para a função, exemplo: ``` in_array("item", $arr) ```; <br>
