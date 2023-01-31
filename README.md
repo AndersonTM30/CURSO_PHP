@@ -715,3 +715,8 @@ E então um novo array é criado, podemos atribuir a uma variável; <br>
 Anteriormente vimos a estrutura **foreach** com arrays, podemos iterar facilmente com ela; <br>
 Utilizando a notação de **chave => valor**, temos acesso rjápido também a arrays associativos; <br>
 Exemplo: ``` foreach($itens as $key => $value){}; ``` <br>
+
+## Reduce em arrays
+A função **array_reduce** tem como objetivo reduzir um array a apenas um valor; <br>
+Podemos passar uma **segunda função como parâmetro**, para algum processo ser executado; <br>
+Exemplo: ``` array_reduce($arr, $funcao); ``` <br>
