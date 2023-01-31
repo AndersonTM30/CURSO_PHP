@@ -700,3 +700,8 @@ Outra função que podemos utilizar para este fim é a **isset**; <br>
 Podemos remover elementos de um array com a função **array_splice**; <br>
 Passamos como parâmetro o array, índice inicial e quantos elementos queremos remover; <br>
 Exemplo: ```array_splice($arr, 2, 1) => A partir do índice 2, remove 1 elemento; ``` <br>
+
+## Criando variáveis com extract
+Com a função **extract** podemos criar variáveis rapidamente de arrays associativos; <br>
+O nome da chave será o nome da variável; <br>
+Se houver uma variável já criada com o nome da chave, a mesma será sobrescrita; <br>
