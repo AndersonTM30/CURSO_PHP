@@ -710,3 +710,8 @@ Se houver uma variável já criada com o nome da chave, a mesma será sobrescrit
 Com a função **compact** podemos criar um array a partir de variáveis; <br>
 Passamos para a função o nome das variaveis em string; <br>
 E então um novo array é criado, podemos atribuir a uma variável; <br>
+
+## Foreach e arrays
+Anteriormente vimos a estrutura **foreach** com arrays, podemos iterar facilmente com ela; <br>
+Utilizando a notação de **chave => valor**, temos acesso rjápido também a arrays associativos; <br>
+Exemplo: ``` foreach($itens as $key => $value){}; ``` <br>
