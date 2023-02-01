@@ -758,3 +758,10 @@ Que como argumento aceita um número identerminado de arrays; <br>
 Podemos verificar qual a diferença entre dois ou mais arrays com PHP; <br>
 A função que vamos utilizar para isso é a **array_diff**;<br>
 Esta função aceita um número indeterminado de arrays; <br>
+
+## O que são objetos?
+Objetos são entidades que possuem **comportamentos e características**; <br>
+As características são conhecidas como **propriedades** (variáveis); <br>
+Os comportamentos como **métodos** (funções); <br>
+Os objetos interagem entre si e sistemas são escritos orientados a objetos (paradigma de **Orientação a Objetos**); <br>
+No PHP podemos desenvolver neste paradigma; <br>
