@@ -753,3 +753,8 @@ ela nos retorna a soma de todos elementos numéricos do array que passamos como 
 Podemos unir arrays, a ação também é conheciado como merge; <br>
 A função que vamos utilizar é a **array_merge**; <br>
 Que como argumento aceita um número identerminado de arrays; <br>
+
+## Diferença entre arrays
+Podemos verificar qual a diferença entre dois ou mais arrays com PHP; <br>
+A função que vamos utilizar para isso é a **array_diff**;<br>
+Esta função aceita um número indeterminado de arrays; <br>
