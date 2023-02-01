@@ -740,3 +740,7 @@ Com a função **array_reverse** podemos obter o array ao inverso; <br>
 Passamos apenas o array como argumento; <br>
 O retorno será um array invertido do original; <br>
 
+## Ordem aleatória de itens
+Com a função **shuffle** podemos reorganizar os itens em ordem aleatória; <br>
+Passamos apenas o array como parâmetro; <br>
+Temos um array retornado em ordem aleatória; <br>
