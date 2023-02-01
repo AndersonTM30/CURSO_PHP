@@ -744,3 +744,7 @@ O retorno será um array invertido do original; <br>
 Com a função **shuffle** podemos reorganizar os itens em ordem aleatória; <br>
 Passamos apenas o array como parâmetro; <br>
 Temos um array retornado em ordem aleatória; <br>
+
+## somando itens de um array
+Para somar os itens de um array utilizamos a função **array_sum**; <br>
+ela nos retorna a soma de todos elementos numéricos do array que passamos como argumento; <br>
