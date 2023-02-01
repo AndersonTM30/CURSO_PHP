@@ -735,3 +735,8 @@ Para ordenar de forma inversa utilizamos **rsort**; <br>
 Para ordernar em ordem crescente pelo valor das chaves, podemos utilizar a função **asort**; <br>
 Se quisermos ordenar o array pelas chaves, utilizamos o valor **ksort**; <br>
 
+## Invertendo arrays
+Com a função **array_reverse** podemos obter o array ao inverso; <br>
+Passamos apenas o array como argumento; <br>
+O retorno será um array invertido do original; <br>
+
