@@ -748,3 +748,8 @@ Temos um array retornado em ordem aleatória; <br>
 ## somando itens de um array
 Para somar os itens de um array utilizamos a função **array_sum**; <br>
 ela nos retorna a soma de todos elementos numéricos do array que passamos como argumento; <br>
+
+## Unindo arrays
+Podemos unir arrays, a ação também é conheciado como merge; <br>
+A função que vamos utilizar é a **array_merge**; <br>
+Que como argumento aceita um número identerminado de arrays; <br>
