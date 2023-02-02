@@ -771,3 +771,15 @@ Classes são os "pais" dos objetos; <br>
 Em PHP sempre que vamos criar ou **instanciar** um objeto vamos precisar de uma classe; <br>
 A classe contém o **molde do objeto**, ou seja, seus métodos e suas propriedades; <br>
 Podemos mudar o valor para cada objeto criado, mas ele parte do que a classe impõe; <br>
+
+## Declarando uma classe
+Para iniciar uma classe vamos precisar da palavra reservada **class**, e também dar um nome para a classe; <br>
+Por convenção, a **inicial do nome é sempre em maiúscula**, ex: User; <br>
+Como é um bloco de código, a classe é envolvida por **{}**; <br>
+Exemplo:
+```
+    class User 
+    {
+        //code...
+    }
+```
