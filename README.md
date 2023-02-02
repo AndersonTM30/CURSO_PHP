@@ -728,7 +728,6 @@ Vamos passar dois argumentos para a função, exemplo: ``` in_array("item", $arr
 
 ## Ordenação de arrays
 Para ordenar em ordem crescente podemos utilizar a função **sort** em um array; <br>
-<<<<<<< HEAD
 Para ordenar de forma inversa utilizamos **rsort**; <br>
 
 ## Ordenação de arrays associativos
@@ -790,3 +789,8 @@ A partir daí uma entidade com as características da classe será criada; <br>
 Normalmente encapsulamos este valor em uma variável; <br>
 Exemplo:
 ``` $matheus = new User; ``` <br>
+
+## Declarando Métodos
+Para declarar um método vamos utilizar a **sintaxe de function**, porém **dentro de uma class**; <br>
+O restante é exatamente igual a sintaxe de função; <br>
+Podemos retornar ou imprimir dados, dependendo da nossa regra de negócios; <br>
