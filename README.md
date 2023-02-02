@@ -799,3 +799,9 @@ Podemos retornar ou imprimir dados, dependendo da nossa regra de negócios; <br>
 Para declarar propriedades vamos basicamente criar uma **variável dentro de uma class**; <br>
 Porém precisamos definir a sua privacidade, como por exemplo **public**; <br>
 Exemplo: ``` public $idade = 20; ```; <br>
+
+## Conhecendo o $this
+O **$this** se refere a instância atual do objeto; <br>
+Podendo assim alterar um valor de uma propriedade do objeto com : ``` $this->propriedade = "x"; ``` <br>
+Tradução literal = este; <br>
+Podemos invocar um método do objeto com this também; <br>
