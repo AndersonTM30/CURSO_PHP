@@ -765,3 +765,9 @@ As características são conhecidas como **propriedades** (variáveis); <br>
 Os comportamentos como **métodos** (funções); <br>
 Os objetos interagem entre si e sistemas são escritos orientados a objetos (paradigma de **Orientação a Objetos**); <br>
 No PHP podemos desenvolver neste paradigma; <br>
+
+## O que são calsses?
+Classes são os "pais" dos objetos; <br>
+Em PHP sempre que vamos criar ou **instanciar** um objeto vamos precisar de uma classe; <br>
+A classe contém o **molde do objeto**, ou seja, seus métodos e suas propriedades; <br>
+Podemos mudar o valor para cada objeto criado, mas ele parte do que a classe impõe; <br>
