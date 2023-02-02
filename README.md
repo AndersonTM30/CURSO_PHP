@@ -794,3 +794,8 @@ Exemplo:
 Para declarar um método vamos utilizar a **sintaxe de function**, porém **dentro de uma class**; <br>
 O restante é exatamente igual a sintaxe de função; <br>
 Podemos retornar ou imprimir dados, dependendo da nossa regra de negócios; <br>
+
+## Declarando propriedades
+Para declarar propriedades vamos basicamente criar uma **variável dentro de uma class**; <br>
+Porém precisamos definir a sua privacidade, como por exemplo **public**; <br>
+Exemplo: ``` public $idade = 20; ```; <br>
