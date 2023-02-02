@@ -783,3 +783,10 @@ Exemplo:
         //code...
     }
 ```
+
+## Instanciando objeto
+Para instanciar um objeto vamos utilizar a palavra reservada **new** em conjunto do nome da classe; <br>
+A partir daí uma entidade com as características da classe será criada; <br>
+Normalmente encapsulamos este valor em uma variável; <br>
+Exemplo:
+``` $matheus = new User; ``` <br>
