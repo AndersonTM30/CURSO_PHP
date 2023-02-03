@@ -805,3 +805,11 @@ O **$this** se refere a instância atual do objeto; <br>
 Podendo assim alterar um valor de uma propriedade do objeto com : ``` $this->propriedade = "x"; ``` <br>
 Tradução literal = este; <br>
 Podemos invocar um método do objeto com this também; <br>
+
+## Constantes em classes
+As **constatntes são parecidas com variáveis**, salvam valores em memória; <br>
+Porém o seu **valor não pode ser alterado**; <br>
+Exemplo de sintaxe: <br>
+```
+    public const CHAVE_API = 'AST4059lakjglk@#$';
+```
