@@ -807,9 +807,15 @@ Tradução literal = este; <br>
 Podemos invocar um método do objeto com this também; <br>
 
 ## Constantes em classes
-As **constatntes são parecidas com variáveis**, salvam valores em memória; <br>
+As **constantes são parecidas com variáveis**, salvam valores em memória; <br>
 Porém o seu **valor não pode ser alterado**; <br>
 Exemplo de sintaxe: <br>
 ```
     public const CHAVE_API = 'AST4059lakjglk@#$';
 ```
+
+## Visibilidade
+Temos três formatos de visibilidade: **public**, **protected** e **private**; <br>
+**public**: A propriedade ou método pode ser acessada de qualquer forma; <br>
+**protected**: A propriedade ou método pode ser acessada apenas pela classe de origem ou as que recebem a mesma herança; <br>
+**Private**: a propriedade ou método pode ser acessada apenas pela classe que foi criada; <br>
