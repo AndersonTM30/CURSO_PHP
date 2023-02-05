@@ -819,3 +819,14 @@ Temos três formatos de visibilidade: **public**, **protected** e **private**; <
 **public**: A propriedade ou método pode ser acessada de qualquer forma; <br>
 **protected**: A propriedade ou método pode ser acessada apenas pela classe de origem ou as que recebem a mesma herança; <br>
 **Private**: a propriedade ou método pode ser acessada apenas pela classe que foi criada; <br>
+
+## Herança
+A herança é o recurso da OOP que dá a possibilidade de uma classe **herdar métodos e propriedades de outra**; <br>
+A palavra reservada é **extends**; <br>
+Exemplo: 
+```
+    class Programador extends Pessoa
+    {
+
+    }
+```
