@@ -870,3 +870,9 @@ Exemplo:
 
     }
 ```
+
+## Classes anônimas
+As **classes anônimas** são criadas em uma variável e não possuem nome; <br>
+Elas **funcionam como qualquer outra classe**; <br>
+Precisamos fechar ela com ";"; <br>
+Exemplo: ``` $anonima = new class() {} ```; <br>
