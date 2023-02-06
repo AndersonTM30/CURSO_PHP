@@ -853,3 +853,10 @@ Exemplo:
         use ClasseTrait
     }
 ```
+
+## Classes Abstratas
+As **classes abstratas** não podem ser instanciadas; <br>
+Podemos ter métodos abstratos, que devem ser implementados obrigatoriamente se uma clsse herdar a abstrata;<br>
+A palavra reservada tanto para classes como para métodos é **abstract**; <br>
+Exemplo:
+``` abstract class ClasseAbstrata{} ```;<br>
