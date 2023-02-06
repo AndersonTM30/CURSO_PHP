@@ -835,3 +835,9 @@ Exemplo:
 Para checar a ancestralidade de uma classe utilizamos o operador **instanceof**; <br>
 Podemos inseriri essa operação em um if, pois vai retornar um booleano; <br>
 Exemplo: ``` $objeto instanceof Humano ```; <br>
+
+## Interfaces
+As interfaces criam um **modelo de uma classe**; <br>
+Então toda classe que inplementar uma interface, deverá implementar também suas propriedades e métodos, obrigatoriamente; <br>
+A palavra reservada é **implements**; <br>
+Exemplo : ```class Humano implements Caracteristicas```;<br>
