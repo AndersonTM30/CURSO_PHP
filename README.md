@@ -876,3 +876,9 @@ As **classes anônimas** são criadas em uma variável e não possuem nome; <br>
 Elas **funcionam como qualquer outra classe**; <br>
 Precisamos fechar ela com ";"; <br>
 Exemplo: ``` $anonima = new class() {} ```; <br>
+
+## Verificando classes
+Em PHP temos alguns métodos que nos ajudam a entednder as classes; <br>
+**class_exists()** => verifica se uma classe existe; <br>
+**get_class_methods()** => verifica os métodos de uma classe; <br>
+**get_class_vars()** => mapeamento das propriedades de uma classe; <br>
