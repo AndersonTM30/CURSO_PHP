@@ -859,8 +859,8 @@ As **classes abstratas** não podem ser instanciadas; <br>
 Podemos ter métodos abstratos, que devem ser implementados obrigatoriamente se uma clsse herdar a abstrata;<br>
 A palavra reservada tanto para classes como para métodos é **abstract**; <br>
 Exemplo:
-``` abstract class ClasseAbstrata{} ```;<br>
 
+``` abstract class ClasseAbstrata{} ```;<br>
 ## Construtores
 Pelos Construtores **podemos inicializar objetos com valores** de propriedades únicas para cada objeto; <br>
 Passamos como argumentos os valores das propriedades; <br>
