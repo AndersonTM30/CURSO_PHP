@@ -882,3 +882,9 @@ Em PHP temos alguns métodos que nos ajudam a entednder as classes; <br>
 **class_exists()** => verifica se uma classe existe; <br>
 **get_class_methods()** => verifica os métodos de uma classe; <br>
 **get_class_vars()** => mapeamento das propriedades de uma classe; <br>
+
+## Verificando objetos
+Em PHP temos alguns métodos que nos ajudam a entender melhor os objetos; <br>
+**is_object()** => verifica se uma variável é um objeto; <br>
+**get_class()** => verifica a classe de uma objeto; <br>
+**method_exists()** => verifica se um método existe em um objeto; <br>
