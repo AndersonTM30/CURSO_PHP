@@ -841,3 +841,15 @@ As interfaces criam um **modelo de uma classe**; <br>
 Então toda classe que inplementar uma interface, deverá implementar também suas propriedades e métodos, obrigatoriamente; <br>
 A palavra reservada é **implements**; <br>
 Exemplo : ```class Humano implements Caracteristicas```;<br>
+
+## Traits
+As **traits** permitem o reuso do código sem heirarquia de classes, ou seja, sem herança; <br>
+Podemos assim utilizar os métodos da classe que foi feita a trait; <br>
+Utilizamos a palavra reservada **use**; <br>
+Exemplo:
+```
+    class Teste
+    {
+        use ClasseTrait
+    }
+```
