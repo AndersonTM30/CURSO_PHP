@@ -860,3 +860,13 @@ Podemos ter métodos abstratos, que devem ser implementados obrigatoriamente se 
 A palavra reservada tanto para classes como para métodos é **abstract**; <br>
 Exemplo:
 ``` abstract class ClasseAbstrata{} ```;<br>
+
+## Construtores
+Pelos Construtores **podemos inicializar objetos com valores** de propriedades únicas para cada objeto; <br>
+Passamos como argumentos os valores das propriedades; <br>
+Exemplo: 
+```
+    function __construct($portas, $motor, $teto_solar){
+
+    }
+```
