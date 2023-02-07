@@ -898,3 +898,12 @@ Exemplo: ``` date("d/m/y"); //day/month/year ```; <br>
 **Recebe uma string** como parâmetros, que é um texto sinalizando tempo; <br>
 A função tenta interpretar e transformar em data; <br>
 Veja um exemplo de utilização: ``` echo date('d/m/y', strtotime('+2 years')); // 2 anos a mais ```; <br>
+
+## Função mktime
+A função mktime recebe em seus parâmetros: **hora, minuto, segundo, mês, dia e ano**; <br>
+Assim podemos criar uma data a partir desta informação; <br>
+Exemplo:
+```
+    $date = mktime(01, 18, 00, 03, 12, 2000);
+    echo date('d/m/y', $date);
+```
