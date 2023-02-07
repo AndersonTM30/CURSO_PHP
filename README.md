@@ -918,3 +918,8 @@ Exemplo: ``` $dataAtual = new DateTime(); ``` <br>
 Os métodos **format** e **modify** são da classe DateTime e nos ajudam a manipular os dados nestes objetos; <br>
 **format** => Formata a data; <br>
 **modify** => Altera a data; <br>
+
+## Métodos setDate e setTime
+Temos mais dois métodos interessantes em DateTime: **setDate** e **setTime**; <br>
+setDate => Recebe ano, mês e dia, alterando completamente a data; <br>
+setTime => Recebe hora, minuto e segundo, alterando o tempo da data; <br>
