@@ -888,3 +888,8 @@ Em PHP temos alguns métodos que nos ajudam a entender melhor os objetos; <br>
 **is_object()** => verifica se uma variável é um objeto; <br>
 **get_class()** => verifica a classe de uma objeto; <br>
 **method_exists()** => verifica se um método existe em um objeto; <br>
+
+## Função date
+A função date recebe um parâmetro, que é o **formato da data**, e este é o primeiro parâmetro da mesma; <br>
+A resposta será a **data atual**; <br>
+Exemplo: ``` date("d/m/y"); //day/month/year ```; <br>
