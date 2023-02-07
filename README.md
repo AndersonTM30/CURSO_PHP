@@ -923,3 +923,8 @@ Os métodos **format** e **modify** são da classe DateTime e nos ajudam a manip
 Temos mais dois métodos interessantes em DateTime: **setDate** e **setTime**; <br>
 setDate => Recebe ano, mês e dia, alterando completamente a data; <br>
 setTime => Recebe hora, minuto e segundo, alterando o tempo da data; <br>
+
+## Diferenças entre datas
+Podemos calcular a **diferença entre duas datas** como o método **diff**; <br>
+O resultado pode ser formatado com **format**; <br>
+Exemplo: ``` $diferenca = $dateA->diff($dateB); ```
