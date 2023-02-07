@@ -893,3 +893,8 @@ Em PHP temos alguns métodos que nos ajudam a entender melhor os objetos; <br>
 A função date recebe um parâmetro, que é o **formato da data**, e este é o primeiro parâmetro da mesma; <br>
 A resposta será a **data atual**; <br>
 Exemplo: ``` date("d/m/y"); //day/month/year ```; <br>
+
+## Função strtotime
+**Recebe uma string** como parâmetros, que é um texto sinalizando tempo; <br>
+A função tenta interpretar e transformar em data; <br>
+Veja um exemplo de utilização: ``` echo date('d/m/y', strtotime('+2 years')); // 2 anos a mais ```; <br>
