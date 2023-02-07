@@ -907,3 +907,9 @@ Exemplo:
     $date = mktime(01, 18, 00, 03, 12, 2000);
     echo date('d/m/y', $date);
 ```
+
+## Objeto DateTime
+O objeto **DateTime** permite tratar a data como um objeto; <br>
+Podemos passar um parâmetro que será a data criada, se não passamos nada a data será a atual; <br>
+Podemos exibir as informações do objeto com **print_r**; <br>
+Exemplo: ``` $dataAtual = new DateTime(); ``` <br>
