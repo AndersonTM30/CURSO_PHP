@@ -928,3 +928,8 @@ setTime => Recebe hora, minuto e segundo, alterando o tempo da data; <br>
 Podemos calcular a **diferença entre duas datas** como o método **diff**; <br>
 O resultado pode ser formatado com **format**; <br>
 Exemplo: ``` $diferenca = $dateA->diff($dateB); ```
+
+## Comparação de datas
+Datas que foram criadas com o objeto de DateTime podem ser comparadas utilizando os **operadores de comparação**; <br>
+Operadores como: **>,< ou ==**; <br>
+Exemplo: ``` $dataA > $dataB ``` <br>
