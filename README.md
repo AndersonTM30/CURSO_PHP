@@ -913,3 +913,8 @@ O objeto **DateTime** permite tratar a data como um objeto; <br>
 Podemos passar um parâmetro que será a data criada, se não passamos nada a data será a atual; <br>
 Podemos exibir as informações do objeto com **print_r**; <br>
 Exemplo: ``` $dataAtual = new DateTime(); ``` <br>
+
+## Métodos format e modify
+Os métodos **format** e **modify** são da classe DateTime e nos ajudam a manipular os dados nestes objetos; <br>
+**format** => Formata a data; <br>
+**modify** => Altera a data; <br>
