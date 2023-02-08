@@ -962,3 +962,11 @@ Para lidar com estas requisições o PHP nos dá algumas variáveis globais: <br
 **$_COOKIE** => Valores de cookies; <br>
 **$_SERVER** => Infomações sobre o servidor; <br>
 **$_FILES** => Informações sobre os arquvios que vieram por upload; <br>
+
+## Explorando $_SERVER
+Como dito anteriormente $_SERVER tem diversas informações importantes; <br>
+**SERVER_SOFTWARE** => Identificação do servidor; <br>
+**SERVER_NAME** => Hostname, DNS ou IP do servidor; <br>
+**SERVER_PROTOCOL** => Protocolo do servidor; <br>
+**SERVER_PORT** => Porta do servidor; <br>
+**SERVER_STRING** => Argumentos após o ? na URL; <br>
