@@ -945,3 +945,11 @@ Quando um navegador solicita uma página web é feito um **request HTTP**; <br>
 Esta requisição recebe uma resposta, ambos podem possuir um **body**; <br>
 A resposta contém um **header**(cabeçalho), que é constitiuído pelo método (GET, POST), arquivo/path solicitado (index.php) e versão do protocolo HTTP(HTTP/1.x); <br>
 Basicamente uma requisição é enviada e uma resposta é recebida; <br>
+
+## Métodos HTTP
+As requisições que enviamos também contém métodos, alguns deles são: <br>
+**GET** => Solicita a apresentação de um recurso (ex: visualização de uma página); <br>
+**POST** => Envio de dados ao servidor (ex: cadastro de usuário); <br>
+**PUT** => Atualização de dados; <br>
+**DELETE** => Remoção de dados; <br>
+**PATCH** => Atualização de dado específico; <br>
