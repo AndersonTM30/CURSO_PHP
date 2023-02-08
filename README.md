@@ -953,3 +953,12 @@ As requisições que enviamos também contém métodos, alguns deles são: <br>
 **PUT** => Atualização de dados; <br>
 **DELETE** => Remoção de dados; <br>
 **PATCH** => Atualização de dado específico; <br>
+
+## Variáveis globais do PHP
+Para lidar com estas requisições o PHP nos dá algumas variáveis globais: <br>
+**$_ENV** => variáveis de ambiente; <br>
+**$_GET** => Parâmetros que foram enviados por request GET; <br>
+**$_POST** => Parâmetros que foram enviados por POST; <br>
+**$_COOKIE** => Valores de cookies; <br>
+**$_SERVER** => Infomações sobre o servidor; <br>
+**$_FILES** => Informações sobre os arquvios que vieram por upload; <br>
