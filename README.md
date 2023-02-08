@@ -981,3 +981,8 @@ Exemplos de uso: ``` Buscas => GET, Registro de usuário => POST ```; <br>
 Vamos precisar criar um formulário e definir o **método como GET**, e também o arquivo ou rota que vamos acessar em **action**; <br>
 No lado do servidor vamos acessar a variável **$_GET** que contém os parâmetros enviados para o servidor; <br>
 Faremos o processamento e retornamos algo para o usuário; <br>
+
+## Teste de formulários com POST
+Vamos precisar criar um formulário e definir o **método como POST**, e também o arquivo ou rota que vamos acessar em **action**; <br>
+No lado do servidor vamos acessar a variável **$_POST** que contém os parâmetros enviados para o servidor; <br>
+Faremos o processamento e retornamos algo para o usuário; <br>
