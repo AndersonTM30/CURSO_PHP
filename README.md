@@ -938,3 +938,10 @@ Exemplo: ``` $dataA > $dataB ``` <br>
 O PHP por padrão vai utilizar **o fuso horário da máquina que está sendo executado**, ou seja, do servidor; <br>
 Porém podemos alterar manualmente o fuso com a função **date_default_timezone_set**; <br>
 Esta função recebe como parâmetro o novo fuso horário em string; <br>
+
+## Introdução ao HTTP
+A web roda em cima do protocolo **HTTP** (HyperText Transfer Protocol); <br>
+Quando um navegador solicita uma página web é feito um **request HTTP**; <br>
+Esta requisição recebe uma resposta, ambos podem possuir um **body**; <br>
+A resposta contém um **header**(cabeçalho), que é constitiuído pelo método (GET, POST), arquivo/path solicitado (index.php) e versão do protocolo HTTP(HTTP/1.x); <br>
+Basicamente uma requisição é enviada e uma resposta é recebida; <br>
