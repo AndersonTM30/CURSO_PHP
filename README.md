@@ -976,3 +976,8 @@ Vamos realizar processamentos de formulário de duas maneiras: via **GET** e via
 Com o GET vamos processar os parâmetros que vem na query string, ou seja, na URL; <br>
 Com o POST vamos processar as informações que vem na requisição, estas não aparecem na URL; <br>
 Exemplos de uso: ``` Buscas => GET, Registro de usuário => POST ```; <br>
+
+## Teste de formulários com GET
+Vamos precisar criar um formulário e definir o **método como GET**, e também o arquivo ou rota que vamos acessar em **action**; <br>
+No lado do servidor vamos acessar a variável **$_GET** que contém os parâmetros enviados para o servidor; <br>
+Faremos o processamento e retornamos algo para o usuário; <br>
