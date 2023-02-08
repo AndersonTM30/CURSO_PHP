@@ -970,3 +970,9 @@ Como dito anteriormente $_SERVER tem diversas informações importantes; <br>
 **SERVER_PROTOCOL** => Protocolo do servidor; <br>
 **SERVER_PORT** => Porta do servidor; <br>
 **SERVER_STRING** => Argumentos após o ? na URL; <br>
+
+## Processamento de formulários teoria
+Vamos realizar processamentos de formulário de duas maneiras: via **GET** e via **POST**; <br>
+Com o GET vamos processar os parâmetros que vem na query string, ou seja, na URL; <br>
+Com o POST vamos processar as informações que vem na requisição, estas não aparecem na URL; <br>
+Exemplos de uso: ``` Buscas => GET, Registro de usuário => POST ```; <br>
