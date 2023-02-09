@@ -998,3 +998,9 @@ Podemos preencher o formulário com dados que viearam da requisição; <br>
 Isso acontece bastante em resultados de busca ou edições de registros; <br>
 Podemos fazer uma **checagem de se o dado foi enviado e recebido** para a página, e utilizar o echo para exibir no **atributo value** do input; <br>
 Exemplo: ``` <input type="text" value="<?php echo $nome; ?>"> ```; <br>
+
+## Parâmetro com mais de um valor
+Os inputs de checkbox **podem conter mais de um valor**; <br>
+Para receber todos eles no backend, precisamos adicionar uma **sintaxe de array** no name; <br>
+Assim receberemos todos os inputs marcados; <br>
+Exemplo: ``` name="caracteristicas[]" ```; <br>
