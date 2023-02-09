@@ -992,3 +992,9 @@ Podemos criar uma página que faz o **processamento dos dados e também exibe o 
 Para isso devemos criar um if que checa se o método de requisição (**$_SERVER['REQUEST_METHOD']**) é **GET** ou **POST**; <br>
 Depois criar as duas variaçãoes, para cada uma das possibilidades; <br>
 Ou checar se algum parâmetro veio pela requisição e então criar as variações; <br>
+
+## Preenchimento de formulário
+Podemos preencher o formulário com dados que viearam da requisição; <br>
+Isso acontece bastante em resultados de busca ou edições de registros; <br>
+Podemos fazer uma **checagem de se o dado foi enviado e recebido** para a página, e utilizar o echo para exibir no **atributo value** do input; <br>
+Exemplo: ``` <input type="text" value="<?php echo $nome; ?>"> ```; <br>
