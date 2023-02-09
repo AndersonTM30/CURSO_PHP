@@ -1004,3 +1004,9 @@ Os inputs de checkbox **podem conter mais de um valor**; <br>
 Para receber todos eles no backend, precisamos adicionar uma **sintaxe de array** no name; <br>
 Assim receberemos todos os inputs marcados; <br>
 Exemplo: ``` name="caracteristicas[]" ```; <br>
+
+## Upload de arquivos
+Para enviar arquivos ao servidor vamos precisar mudar o enctype do formulário para: **multipart/form-data**; <br>
+Também será necessário um input de **tipo file**; <br>
+O tamanho do arquivo pode exaurir a memória do servidor; <br>
+Depois do envio, todos os dados da imagem estarão em **$_FILES**; <br>
