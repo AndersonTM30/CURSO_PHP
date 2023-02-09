@@ -986,3 +986,9 @@ Faremos o processamento e retornamos algo para o usuário; <br>
 Vamos precisar criar um formulário e definir o **método como POST**, e também o arquivo ou rota que vamos acessar em **action**; <br>
 No lado do servidor vamos acessar a variável **$_POST** que contém os parâmetros enviados para o servidor; <br>
 Faremos o processamento e retornamos algo para o usuário; <br>
+
+## Autoprocessamento de páginas
+Podemos criar uma página que faz o **processamento dos dados e também exibe o input de informações**; <br>
+Para isso devemos criar um if que checa se o método de requisição (**$_SERVER['REQUEST_METHOD']**) é **GET** ou **POST**; <br>
+Depois criar as duas variaçãoes, para cada uma das possibilidades; <br>
+Ou checar se algum parâmetro veio pela requisição e então criar as variações; <br>
