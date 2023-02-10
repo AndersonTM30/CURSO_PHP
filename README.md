@@ -1023,3 +1023,10 @@ O **HTTP** é um protocolo que não mantém o estado (**stateless**); <br>
 Ou seja, após o fim ada requisição **a conexão entre usuário e servidor é finalizada**, a próxima conexão não possui mais relação entre ambos; <br>
 Para conseguir manter estes dados podemos utilizar os **cookies**; <br>
 O problema desta abordagem é que alguns navegadores não permitem o uso de cookies ou o bloqueiam; <br>
+
+## Cookies
+Os cookies são strings que contém informações; <br>
+A função para adicionar um cookie é **setcookie**; <br>
+A função deve ser chamada antes do corpo da página, pois envia dados como **header** (cabeçalho); <br>
+O cookie leva dados como : nome, valor e data de expiração; <br>
+Podemos acessar os cookies de volta com **$_COOKIE**; <br>
