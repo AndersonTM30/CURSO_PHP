@@ -1017,3 +1017,9 @@ Devemos checar se os dados enviados **condizem com o que estamos esperando**; <b
 Para isso podemos criar condicionais fazendo as **verificações**; <br>
 Caso alguma não atenda ou um campo obrigatório esteja vazio, retornamos uma mensagem ao usuário; <br>
 **Obs**: é possível fazer validações com HTML e também JavaScript; <br>
+
+## Mantendo o estado
+O **HTTP** é um protocolo que não mantém o estado (**stateless**); <br>
+Ou seja, após o fim ada requisição **a conexão entre usuário e servidor é finalizada**, a próxima conexão não possui mais relação entre ambos; <br>
+Para conseguir manter estes dados podemos utilizar os **cookies**; <br>
+O problema desta abordagem é que alguns navegadores não permitem o uso de cookies ou o bloqueiam; <br>
