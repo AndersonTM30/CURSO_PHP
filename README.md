@@ -1036,3 +1036,8 @@ Com **session** podemos criar uma variável que persiste em diferentes páginas 
 A session **utiliza recursos de cookies** para seu funcionamento, e se o recurso estiver desabilitado propaga a sessão via URL; <br>
 Sessions são utilizadas para : autenticação, carrinho de compras e tudo o que precisa persistir de página em página; <br>
 Acaba sendo o recurso mais utilizado, comparando o com o cookie; <br>
+
+## Onde são salvas as sessions?
+As **sessions são salvas em arquivos** no computador que estamos ou no servidor da aplicação; <br>
+O caminho para onde os arquivos são salvos fica em php.ini na configuração **session.save_path**; <br>
+As sessions podem ser salvas em dois formatos: o próprio do PHP e também o Web Distributed Data eXchange (WDDX); <br>
