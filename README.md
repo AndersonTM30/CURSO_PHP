@@ -1030,3 +1030,9 @@ A função para adicionar um cookie é **setcookie**; <br>
 A função deve ser chamada antes do corpo da página, pois envia dados como **header** (cabeçalho); <br>
 O cookie leva dados como : nome, valor e data de expiração; <br>
 Podemos acessar os cookies de volta com **$_COOKIE**; <br>
+
+## Sobre as sessions
+Com **session** podemos criar uma variável que persiste em diferentes páginas e também perdura por várias visitas ao mesmo site; <br>
+A session **utiliza recursos de cookies** para seu funcionamento, e se o recurso estiver desabilitado propaga a sessão via URL; <br>
+Sessions são utilizadas para : autenticação, carrinho de compras e tudo o que precisa persistir de página em página; <br>
+Acaba sendo o recurso mais utilizado, comparando o com o cookie; <br>
