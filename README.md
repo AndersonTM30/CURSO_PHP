@@ -1010,3 +1010,10 @@ Para enviar arquivos ao servidor vamos precisar mudar o enctype do formulário p
 Também será necessário um input de **tipo file**; <br>
 O tamanho do arquivo pode exaurir a memória do servidor; <br>
 Depois do envio, todos os dados da imagem estarão em **$_FILES**; <br>
+
+## Validação de formulários
+A validação de formulários é uma parte importante do **recebimento de dados**; <br>
+Devemos checar se os dados enviados **condizem com o que estamos esperando**; <br>
+Para isso podemos criar condicionais fazendo as **verificações**; <br>
+Caso alguma não atenda ou um campo obrigatório esteja vazio, retornamos uma mensagem ao usuário; <br>
+**Obs**: é possível fazer validações com HTML e também JavaScript; <br>
