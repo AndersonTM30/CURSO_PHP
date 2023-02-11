@@ -1041,3 +1041,9 @@ Acaba sendo o recurso mais utilizado, comparando o com o cookie; <br>
 As **sessions são salvas em arquivos** no computador que estamos ou no servidor da aplicação; <br>
 O caminho para onde os arquivos são salvos fica em php.ini na configuração **session.save_path**; <br>
 As sessions podem ser salvas em dois formatos: o próprio do PHP e também o Web Distributed Data eXchange (WDDX); <br>
+
+## Introdução ao SSL
+SSL vem de **Secure Sockets Layer**; <br>
+O PHP não se importa muito e não tem vantagens sobre o SSL; <br>
+Porém garantimos que as requisições de dados entre nosso site e servidor estejam mais seguras com a **encriptação de dados**; <br>
+Devemos apenas ter cuidado com os formulários, para que sejam **enviados para a URL com HTTPS**, pois alguns servidores bloqueiam a conexão HTTP; <br>
