@@ -24,10 +24,10 @@ include_once('helpers/url.php');
         </a>
         <nav>
             <ul id="navbar">
-                <li><a href="../index.php">Home</a></li>
-                <li><a href="#">Categorias</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="../contato.php">Contato</a></li>
+                <li><a class="nav-link" href="../index.php">Home</a></li>
+                <li><a class="nav-link" href="#">Categorias</a></li>
+                <li><a class="nav-link" href="#">Sobre</a></li>
+                <li><a class="nav-link" href="../contato.php">Contato</a></li>
             </ul>
         </nav>
     </header>
