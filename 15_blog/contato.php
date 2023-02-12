@@ -3,7 +3,7 @@
 include_once('templates/header.php');
 
 ?>
-    <h1>Olá Mundo</h1>
+    <p>página de contato</p>
 
 <?php
 // template do footer
