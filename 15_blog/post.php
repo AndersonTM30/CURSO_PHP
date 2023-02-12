@@ -36,21 +36,21 @@ if (isset($_GET['id'])) {
             Temporibus illo modi dignissimos quia eligendi, eveniet delectus eum itaque omnis sequi explicabo. Ex tempora praesentium itaque, sequi adipisci veniam iusto debitis? Saepe neque nesciunt cumque perspiciatis inventore, tenetur libero.
         </p>
     </div>
+    <aside id="nav-container">
+        <h3 id="tags-title">Tags</h3>
+        <ul id="tag-list">
+            <?php foreach ($currentPost['tags'] as $tag) : ?>
+                <li><a href="#"><?= $tag ?></a></li>
+            <?php endforeach; ?>
+        </ul>
+        <h3 id="categories-title">Categorias</h3>
+        <ul id="categories-list">
+            <?php foreach ($categories as $category) : ?>
+                <li><a href="#"><?= $category ?></a></li>
+            <?php endforeach; ?>
+        </ul>
+    </aside>
 </main>
-<aside id="nav-container">
-    <h3 id="tags-title">Tags</h3>
-    <ul id="tag-list">
-        <?php foreach ($currentPost['tags'] as $tag) : ?>
-            <li><a href="#"><?= $tag ?></a></li>
-        <?php endforeach; ?>
-    </ul>
-    <h3 id="categories-title">Categorias</h3>
-    <ul id="categories-list">
-        <?php foreach ($categories as $category) : ?>
-            <li><a href="#"><?= $category ?></a></li>
-        <?php endforeach; ?>
-    </ul>
-</aside>
 <?php
 // template do footer
 include_once('templates/footer.php');
