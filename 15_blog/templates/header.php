@@ -2,6 +2,8 @@
 // No curso o instrutor utiliza o xampp, no meu caso estou utilizando o servidor do próprio PHP ai não precisa
 // deste tipo de configuração
 include_once('helpers/url.php');
+include_once('data/posts.php');
+include_once('data/categories.php');
 
 ?>
 
