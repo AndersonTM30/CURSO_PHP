@@ -20,7 +20,7 @@ include_once('templates/header.php');
                     <p class="post-description"><?= $post['description'] ?></p>
                     <div class="tags-container">
                         <?php foreach($post['tags'] as $tag) : ?>
-                            <a href="#"><?= $tag ?></a>
+                            <a href="./post.php?id=<?= $post['id'] ?>"><?= $tag ?></a>
                         <?php endforeach; ?>
                     </div>
                 </div>
