@@ -11,7 +11,9 @@ include_once('templates/header.php');
         <div id="posts-container">
             <?php foreach($posts as $post): ?>
                 <div class="post-box">
+                    <a href="./data/posts.php?id=<?= $post['id'] ?>">
                     <img src="./img/<?= $post['img'] ?>" alt="<?= $post['title'] ?>">
+                    </a>
                     <h2 class="post-title">
                         <a href="./data/posts.php?id=<?= $post['id'] ?>"><?= $post['title'] ?></a>
                     </h2>
