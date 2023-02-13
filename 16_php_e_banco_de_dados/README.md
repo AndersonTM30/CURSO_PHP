@@ -20,3 +20,11 @@ Para criar bancos vamos utilizar o comando: ``` CREATE DATABASE nome_do_banco; `
 Podemos também **remover os bancos**, ou seja deletá-los do sistema;  
 Isso fará com que **todos os dados e tabelas sejam perdidos**, então tome cuidado;  
 O comando para deletar bancos é : ``` DROP DATABASE nome_do_banco; ```  
+
+## Principais tipos de dados
+Os tipos de dados do banco funcionam como os tipos de dados de variáveis, porém em **vários 'níveis' para a melhor performace**;  
+**VARCHAR**: texto de 0 a 65535 caracteres;  
+**TEXT**: texto com o máximo 65535 bytes;  
+**INT**: números inteiros;  
+**BIGINT**: números inteiros com maior proporção que o INT;  
+**DATE**: data no formato YYYY-MM-DD;  
