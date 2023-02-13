@@ -15,3 +15,8 @@ As instruções em SQL costumam ser escritas em **letras maiúsculas**;
 Podemos criar banco de dados manualmente em softwares como o **phpMyAdmin** ou por SQL;  
 Iremos utilizar **comandos de query** com  o intuito de aprender SQL que vão servir ao longo da sua carreira de programação;  
 Para criar bancos vamos utilizar o comando: ``` CREATE DATABASE nome_do_banco; ```  
+
+## Removendo banco de dados
+Podemos também **remover os bancos**, ou seja deletá-los do sistema;  
+Isso fará com que **todos os dados e tabelas sejam perdidos**, então tome cuidado;  
+O comando para deletar bancos é : ``` DROP DATABASE nome_do_banco; ```  
