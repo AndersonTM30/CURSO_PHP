@@ -28,3 +28,13 @@ Os tipos de dados do banco funcionam como os tipos de dados de variáveis, poré
 **INT**: números inteiros;  
 **BIGINT**: números inteiros com maior proporção que o INT;  
 **DATE**: data no formato YYYY-MM-DD;  
+
+## Criando tabelas
+As **tabelas ficam dentro dos bancos**, e os **dados ficam dentro das tabelas**, ou seja, é uma parte fundamental do banco relacional;  
+Podemos criar tabelas facilmente por SQL, o comando é: 
+```
+    CREATE TABLE nomeDaTabela(
+        coluna tipoDeDado,
+        coluna2 tipoDeDado
+    );
+```
