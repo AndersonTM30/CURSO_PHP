@@ -62,3 +62,14 @@ O comando fica após o tipo da coluna: ``` coluna tipoDeDado constraint ```;
 A NOT NULL é uma **constraint**;  
 Esta constraint não permite que o dado adicionando a esta coluna esteja vazio;  
 Exemplo: ``` nome VARCHAR(100) NOT NULL ```  
+
+## UNIQUE
+A UNIQUE é uma **constraint** que garante que todoso os valores da coluna que foi adicionada sejam únicos;  
+**Obs**: podemos unir várias constraints;  
+Exemplo:
+```
+CREATE TABLE PESSOA (
+    NOME VARCHAR(100) UNIQUE,
+    EMAIL VARCHAR(255) NOT NULL UNIQUE
+);
+```
