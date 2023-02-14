@@ -57,3 +57,8 @@ ADD/DROP COLUMN/MODIFY COLUMN nomeDaColunaNaTabela
 Constraints são **características que podem ser adicionadas na hora da criação** de uma tabela;  
 Podemos definir: **campos que não podem ser nulos, campos únicos, chaves primárias e mais**;  
 O comando fica após o tipo da coluna: ``` coluna tipoDeDado constraint ```;  
+
+## NOT NULL
+A NOT NULL é uma **constraint**;  
+Esta constraint não permite que o dado adicionando a esta coluna esteja vazio;  
+Exemplo: ``` nome VARCHAR(100) NOT NULL ```  
