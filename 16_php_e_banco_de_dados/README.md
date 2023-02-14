@@ -84,3 +84,9 @@ Exemplo : ``` id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY ```;
 Para inserir dados vamos utilizar a instrução **INSERT**;  
 Devemos determinar a **tabela, colunas e também os dados** que serão inseridos;  
 Exemplo: ``` INSERT INTO TABELA(coluna, coluna2) VALUES (valor, valor2); ```  
+
+## Selecionando dados
+Para selecionar dados vamos utilizar a instrução **SELECT**;  
+Devemos determinar a **tabelas e as colunas** que serão selecionadas;  
+Podemos utilizar o * para selecionar todas as colunas;  
+Exemplo: ``` SELECT * FROM tabela; ```  
