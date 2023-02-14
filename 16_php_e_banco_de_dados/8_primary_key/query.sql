@@ -1,0 +1,5 @@
+CREATE TABLE CARROS(
+    id INT IDENTITY(1, 1) PRIMARY KEY,
+    nome VARCHAR(255),
+    descricao VARCHAR(255)
+);
