@@ -100,3 +100,8 @@ Exemplo: ``` SELECT colunas FROM tabela WHERE condição; ```;
 Os operadores **AND, OR e NOT** são semelhantes aos do PHP e podem auxiliar o WHERE a filtrar mais ainda os dados;  
 Podemos utilizar os operadores em conjunto;  
 Veja um exemplo: ``` WHERE condicao AND condicao2 ```  
+
+## ORDER BY
+Com o ORDER BY é possível **ordenar o retorno com base em alguma coluna**;  
+Podemos ordenar de forma crescente (**ASC**) ou descendente (**DESC**);  
+Exemplo: ``` ORDER BY email ASC ```;  
