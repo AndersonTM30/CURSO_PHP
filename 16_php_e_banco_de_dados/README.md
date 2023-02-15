@@ -116,3 +116,13 @@ Exemplo: ``` UPDATE tabela SET coluna1 = valor1 WHERE condicao;  ```
 Para deletar dados de uma tabela vamos utilizar o **DELETE FROM**;  
 **Obs**: DELETE sem WHERE vai deletar todos os dados da tabela;  
 Exemplo: ``` DELETE FROM tabela WHERE condicao ```;
+
+## Criando usuários
+Podemos criar usuários no banco, depois utilizá-los para conectar e realizar as queries;  
+Além de criar precisamos **adicionar os privilégios**;  
+Exemplo:
+```
+CREATE USER 'usuario'@'localhost' IDENTIFIED BY 'senha';
+GRANT ALL PRIVILEGES ON *.* 'usuario'@'localhost';
+FLUSH PRIVILEGES;
+```
