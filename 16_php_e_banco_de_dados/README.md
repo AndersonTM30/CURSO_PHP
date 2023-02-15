@@ -95,3 +95,8 @@ Exemplo: ``` SELECT * FROM tabela; ```
 O WHERE é uma cláusula utilizada para **filtrar registros**;  
 Vamos poder **resgatar os dados que batem apenas com as características** que estamos procurando;  
 Exemplo: ``` SELECT colunas FROM tabela WHERE condição; ```;
+
+## AND, OR e NOT
+Os operadores **AND, OR e NOT** são semelhantes aos do PHP e podem auxiliar o WHERE a filtrar mais ainda os dados;  
+Podemos utilizar os operadores em conjunto;  
+Veja um exemplo: ``` WHERE condicao AND condicao2 ```  
