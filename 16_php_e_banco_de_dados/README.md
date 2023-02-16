@@ -142,3 +142,10 @@ Exemplo: ```$conn = new mysqli("host", "user", "pass", "db") ```
 Para verificar se houve algum erro na conexão podemos utilizar a propriedade **connect_errno**;  
 E para verificar o erro podemos utilizar o método **connect_error()**;  
 Podemos inserir a checagem em um if e mostrar a mensagem de erro com um echo;  
+
+## Executando uma query
+Para executar uma query vamos usar o metodo **query**;  
+Ele deve ser utilizado **a partir do objeto que fez a conexão**;  
+Vamos receber um determinado retorno como resultado, que podem ser os dados, caso seja um SELECT, por exemplo;  
+É importante ao fim de todas as queries fechar a conexão, com o método **close**;  
+Conexão abertas gastam recursos do servidor e prejudicam a aplicação;   
