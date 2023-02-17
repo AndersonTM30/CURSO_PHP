@@ -161,3 +161,8 @@ Para inseriri dados com o mysqli vamos utilizar a mesma query do SQL puro e nova
 A instrução para inserir dados é a **INSERT INTO**;  
 Devemos passar a **tabela, colunas e valores**;  
 
+## Selecionando dados com mysqli
+Para resgatar dados com o mysqli vamos utilizar a mesma query do SQL puro e novamente o método **query**;  
+A instrução para inserir dados é a **SELECT**;  
+Vamos inseriri o método query em uma variável, que é onde receberemos os resultados;  
+Com o método **fetch__assoc**, transformamos os resultados em um array;  
