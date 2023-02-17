@@ -180,3 +180,8 @@ Como teremos uma variável para guardar estes três passos, também devemos fech
 Ela é comumente chamada de **statement**; (declaração)  
 Lembre-se de **fechar a conexão**;  
 
+## Selecionando dados com prepared statement
+Para selecionar dados com prepared statements devemos resgatar os dados com o método **fetch_all**;  
+A sequência será: prepare => bind_param => execute => get_result => fetch_all;  
+E depois devemos **fechar a conexão**;  
+
