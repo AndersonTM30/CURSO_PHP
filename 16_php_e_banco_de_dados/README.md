@@ -149,3 +149,9 @@ Ele deve ser utilizado **a partir do objeto que fez a conexão**;
 Vamos receber um determinado retorno como resultado, que podem ser os dados, caso seja um SELECT, por exemplo;  
 É importante ao fim de todas as queries fechar a conexão, com o método **close**;  
 Conexão abertas gastam recursos do servidor e prejudicam a aplicação;   
+
+## Criando e deletando tabelas com mysqli
+Para criar e deletar tabelas vamos utilizar as mesmas queries de SQL puro, porém com o auxílio do método **query**;  
+**DROP TABLE** para deletar tabelas;  
+**CREATE TABLE** para criar tabelas;  
+Lembre de fechar a conexão!  
