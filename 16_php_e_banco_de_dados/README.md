@@ -155,3 +155,9 @@ Para criar e deletar tabelas vamos utilizar as mesmas queries de SQL puro, poré
 **DROP TABLE** para deletar tabelas;  
 **CREATE TABLE** para criar tabelas;  
 Lembre de fechar a conexão!  
+
+## Inserindo dados com mysqli
+Para inseriri dados com o mysqli vamos utilizar a mesma query do SQL puro e novamente o método **query**;  
+A instrução para inserir dados é a **INSERT INTO**;  
+Devemos passar a **tabela, colunas e valores**;  
+
