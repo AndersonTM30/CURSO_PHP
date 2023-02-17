@@ -166,3 +166,10 @@ Para resgatar dados com o mysqli vamos utilizar a mesma query do SQL puro e nova
 A instrução para inserir dados é a **SELECT**;  
 Vamos inseriri o método query em uma variável, que é onde receberemos os resultados;  
 Com o método **fetch__assoc**, transformamos os resultados em um array;  
+
+## Prepared statements teoria
+Prepared statements é quando criamos uma **query com placeholders** em vez dos valores reais;  
+Aumentando a segurança e a performace da requisição;  
+Neste caso o fluxo muda um pouco, vamos utilizar o método **prepare** para preparar a query;  
+O **bind_param** para resgatar os parâmetros, e o **execute** para rodar a query;  
+
