@@ -188,3 +188,8 @@ E depois devemos **fechar a conexão**;
 ## Resgatando apenas uma linha
 Para os selects que precisamos de apenas um dados retornado, podemos utilizar o **fetch_row**;  
 Este método pode ser inserido depois de obter o resultado, ou seja, após o **get_result**;  
+
+## Atualizando dados com prepared statement
+Para atualizar dados vamos **seguir os mesmos passos de INSERt e SELECT**;  
+Na hora de inserir o **SET** para atulaizar os campos, vamos inserir os prepared statements;  
+Sequência: prepare => bind_param => execute;  
