@@ -16,6 +16,7 @@ Materiais do curso de PHP do zero a maestria do Matheus Batisti do projeto [Hora
 12 - [Introdução a Orientação a Objetos](12_poo) <br>
 13 - [Trabalhando com datas](13_datas) <br>
 14 - [PHP e a WEB](14_php_e_web) <br>
+16 - [PHP e Banco de Dados](16_php_e_banco_de_dados) <br>
 
 ## Projetos
 15 - [Blog](15_blog) <br>
