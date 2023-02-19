@@ -193,3 +193,9 @@ Este método pode ser inserido depois de obter o resultado, ou seja, após o **g
 Para atualizar dados vamos **seguir os mesmos passos de INSERt e SELECT**;  
 Na hora de inserir o **SET** para atulaizar os campos, vamos inserir os prepared statements;  
 Sequência: prepare => bind_param => execute;  
+
+## Deletando dados com prepared
+Para atualizar dados vamos **seguir os mesmo passos de INSERT e SELECT**;  
+Na hora de inserir o **WHERE** para remover os registros, vamos inserir os prepared statements;  
+Sequência: prepared => bind_param => execute;  
+Lembrando que DELETE sem WHERE, causa a remoção de todos os registros;  
