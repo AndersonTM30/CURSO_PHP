@@ -199,3 +199,7 @@ Para atualizar dados vamos **seguir os mesmo passos de INSERT e SELECT**;
 Na hora de inserir o **WHERE** para remover os registros, vamos inserir os prepared statements;  
 Sequência: prepared => bind_param => execute;  
 Lembrando que DELETE sem WHERE, causa a remoção de todos os registros;  
+
+## Habilitando o PDO
+Antes de começar a de fato utilizar o PDO, é necessário checar se a lib está habilitada;  
+Vamos checar no **php.ini** por duas linhas, e descomentar caso estejam: **php_pdo**, **php_pdo_mysql**;  
