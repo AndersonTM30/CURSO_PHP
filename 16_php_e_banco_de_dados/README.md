@@ -215,3 +215,9 @@ Utilizaremos o método **preapre** para realizar a query com **prepared statemen
 Depois **bind_param** para estabelecer os valores dos parâmetros;  
 Por fim **execute** fará a execução da query;  
 Exemplo: ``` $stmt = $conn-> prepare("INSERT INTO x(a,b) VALUES(?,?)); ```;  
+
+## Atualizando dados com PDO
+Para atualizar a abordagem também é parecida;  
+Vamos serguir com a sequência: **prepare => bind_param => execute**  
+E então a query persistirá no banco:
+``` $stmt = $con->prepare("UPDATE x SET a = ?, b = ? WHERE c = ?") ```;  
