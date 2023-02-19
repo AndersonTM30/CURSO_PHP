@@ -221,3 +221,10 @@ Para atualizar a abordagem também é parecida;
 Vamos serguir com a sequência: **prepare => bind_param => execute**  
 E então a query persistirá no banco:
 ``` $stmt = $con->prepare("UPDATE x SET a = ?, b = ? WHERE c = ?") ```;  
+
+## Selecionando dados com PdO
+Para selecionar dados a abordagem tabém é parecida com mysqli;  
+Vamos seguir com a sequência: **prepare> bindParam => execute**;  
+Porém para o resgate dos dados tempos dois métodos:  
+**fetch**: recebe apenas a primeira ocorrência;  
+**fetchAll**: recebe todos os dados;  
