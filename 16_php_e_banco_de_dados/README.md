@@ -203,3 +203,8 @@ Lembrando que DELETE sem WHERE, causa a remoção de todos os registros;
 ## Habilitando o PDO
 Antes de começar a de fato utilizar o PDO, é necessário checar se a lib está habilitada;  
 Vamos checar no **php.ini** por duas linhas, e descomentar caso estejam: **php_pdo**, **php_pdo_mysql**;  
+
+## Conexão com PDO
+A conexão com **PDO** é um pouco diferente do **mysqli**, mas vamos informar basicamente os mesmo parâmetros;  
+Que são: banco de dados, host, nome do banco, usuário e senha;  
+Exemplo: ``` $conn = new PDO("mysql:host=localhost;dbname=teste", $user, $pass);  
