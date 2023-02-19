@@ -207,4 +207,11 @@ Vamos checar no **php.ini** por duas linhas, e descomentar caso estejam: **php_p
 ## Conexão com PDO
 A conexão com **PDO** é um pouco diferente do **mysqli**, mas vamos informar basicamente os mesmo parâmetros;  
 Que são: banco de dados, host, nome do banco, usuário e senha;  
-Exemplo: ``` $conn = new PDO("mysql:host=localhost;dbname=teste", $user, $pass);  
+Exemplo: ``` $conn = new PDO("mysql:host=localhost;dbname=teste", $user, $pass) ```;  
+
+## Inserindo dados com PDO
+Em PDO vamos tuilizar uma abordagem parecida com o mysqli;  
+Utilizaremos o método **preapre** para realizar a query com **prepared statements**;  
+Depois **bind_param** para estabelecer os valores dos parâmetros;  
+Por fim **execute** fará a execução da query;  
+Exemplo: ``` $stmt = $conn-> prepare("INSERT INTO x(a,b) VALUES(?,?)); ```;  
