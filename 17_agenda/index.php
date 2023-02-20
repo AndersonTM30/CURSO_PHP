@@ -20,11 +20,11 @@ include_once('templates/header.php');
                 <tbody>
                     <?php foreach($contacts as $contact): ?>
                         <tr>
-                            <td scope="row" class="col-id"><?= $contact['Id'] ?></td>
+                            <td scope="row" class="col-id"><?= $contact['id'] ?></td>
                             <td scope="row"><?= $contact['name'] ?></td>
                             <td scope="row"><?= $contact['phone'] ?></td>
                             <td class="actions">
-                                <a href="#"><i class="fas fa-eye check-icon"></i></a>
+                                <a href="show.php?id=<?= $contact['id'] ?>"><i class="fas fa-eye check-icon"></i></a>
                                 <a href="#"><i class="fas fa-edit edit-icon"></i></a>
                                 <button type="submit" class="delete-btn"><i class="fas fa-times delete-icon"></i></button>
                             </td>
@@ -34,7 +34,7 @@ include_once('templates/header.php');
             </table>
         <?php else: ?>
             echo "$error" . <br>
-            <p id="empty-list-text">Ainda não há contatos na sua agenda, <a href="<?= $BASE_URL ?>create.php">Clique aqui para adicionar</a></p>
+            <p id="empty-list-text">Ainda não há contatos na sua agenda, <a href="create.php">Clique aqui para adicionar</a></p>
         <?php endif; ?>
     </div>
 

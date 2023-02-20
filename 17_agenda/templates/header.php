@@ -28,13 +28,13 @@ if(isset($_SESSION['msg'])) {
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="<?= $BASE_URL ?>index.php">
+            <a class="navbar-brand" href="index.php">
                 <img src="../img/logo.svg" alt="Agenda logo">
             </a>
             <div>
                 <div class="navbar-nav">
-                    <a href="<?= $BASE_URL ?>index.php" class="nav-link active" id="home-link">Agenda</a>
-                    <a href="<?= $BASE_URL ?>create.php" class="nav-link active" id="home-link">Adicionar Contato</a>
+                    <a href="index.php" class="nav-link active" id="home-link">Agenda</a>
+                    <a href="create.php" class="nav-link active" id="home-link">Adicionar Contato</a>
                 </div>
             </div>
         </nav>
