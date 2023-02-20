@@ -1,6 +1,6 @@
 <?php
-include_once("../config/url.php");
-include_once("../config/process.php");
+include_once("config/url.php");
+include_once("config/process.php");
 
 // limpa a mensagem
 if(isset($_SESSION['msg'])) {
@@ -12,7 +12,7 @@ if(isset($_SESSION['msg'])) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

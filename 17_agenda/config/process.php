@@ -5,10 +5,12 @@ session_start();
 include_once('connection.php');
 include_once('url.php');
 
-$query = "SELECT * FROM contacts";
+$contacts = [];
+
+$query = "SELECT * FROM Teste.dbo.contacts";
 
 $stmt = $conn->prepare($query);
 
 $stmt->execute();
 
-$contacts = $stmt->fetchAll();
+$contacts = $stmt->fetchAll(PDO::FETCH_ASSOC);
