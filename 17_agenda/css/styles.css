@@ -17,6 +17,8 @@
 #contacts-table {
     max-width: 800px;
     margin: 0 auto;
+    opacity: 0;
+    animation: fadeIn .5s ease-in-out 0.5s forwards;
 }
 
 #contacts-table thead {
@@ -69,4 +71,58 @@
     max-width: 500px;
     margin: 0 auto;
     margin-top: 30px;
+}
+
+/* SHOW / CONTATO INDIVIDUAL */
+#view-contact-container {
+    max-width: 500px;
+    margin: 0 auto;
+    opacity: 0;
+    animation: fadeIn .5s ease-in-out 0.5s forwards;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* BUTTON BACK TO HOME */
+#back-link-container {
+    display: block;
+    width: 500px;
+    margin: 30px auto 0;
+}
+
+#back-link {
+    border: 1px solid #007BFF;
+    color: #007BFF;
+    border-radius: 4px;
+    padding: 5px;
+    transition: .5s;
+}
+
+#back-link:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #007BFF;
+}
+
+/* CREATE */
+#create-form, #edit-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* MOBILE */
+@media(max-width: 480px) {
+
+    #home-link {
+      display: none;
+    }
+}
+
+/* ANIMAÇÕES */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
