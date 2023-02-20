@@ -26,7 +26,11 @@ include_once('templates/header.php');
                             <td class="actions">
                                 <a href="show.php?id=<?= $contact['id'] ?>"><i class="fas fa-eye check-icon"></i></a>
                                 <a href="edit.php?id=<?= $contact['id'] ?>"><i class="fas fa-edit edit-icon"></i></a>
-                                <button type="submit" class="delete-btn"><i class="fas fa-times delete-icon"></i></button>
+                                <form class="delete-form" action="config/process.php" method="post">
+                                    <input type="hidden" name="type" value="delete">
+                                    <input type="hidden" name="id" value="<?= $contact['id'] ?>">
+                                    <button type="submit" class="delete-btn"><i class="fas fa-times delete-icon"></i></button>
+                                </form>
                             </td>
                         </tr>
                     <?php endforeach; ?>

@@ -49,6 +49,20 @@ if (!empty($_POST)) {
             $error = $err->getMessage();
             echo "Erro: $error";
         }
+    }else if($data['type'] === 'delete') {
+        $id = $data['id'];
+        $query = "DELETE FROM Teste.dbo.contacts WHERE id = :id";
+        $stmt = $conn->prepare($query);
+        $stmt->bindParam(':id', $id);
+
+        try {
+            $stmt->execute();
+            $_SESSION['msg'] = 'Contato excluído com sucesso!';
+            
+        } catch (PDOException $err) {
+            $error = $err->getMessage();
+            echo "Erro: $error";
+        }
     }
 
     // redirect HOME
