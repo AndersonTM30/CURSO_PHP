@@ -28,6 +28,27 @@ if (!empty($_POST)) {
             $error = $err->getMessage();
             echo "Erro: $error";
         }
+    } else if ($data['type'] === 'edit') {
+        $id = $data['id'];
+        $name = $data['name'];
+        $phone = $data['phone'];
+        $observations = $data['observations'];
+
+        $query = "UPDATE Teste.dbo.contacts SET name = :name, phone = :phone, observations = :observations WHERE id = :id";
+
+        $stmt = $conn->prepare($query);
+        $stmt->bindParam(':id', $id);
+        $stmt->bindParam(':name', $name);
+        $stmt->bindParam(':phone', $phone);
+        $stmt->bindParam(':observations', $observations);
+        try {
+            $stmt->execute();
+            $_SESSION['msg'] = 'Contato atualizado com sucesso!';
+            
+        } catch (PDOException $err) {
+            $error = $err->getMessage();
+            echo "Erro: $error";
+        }
     }
 
     // redirect HOME
