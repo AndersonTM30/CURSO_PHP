@@ -13,3 +13,10 @@ Exemplificando com uma classe de usuário;
 **UserDAO**: Manipulação de dados do banco;  
 **User**: Todas as ações que não envolvem o banco;  
 **Create**: User monta um novo usuário com seus campos necessários do banco, UserDAO recebe este objeto e insere o usuário no banco;  
+
+## Interface do DAO
+Normalmente também é criada uma **interface** para o DAO;  
+Esta interface molda a classe DAO, definindo sues métodos;  
+Desta maneira temos um esqueleto para seguir e implementar a classe que vai manipular o banco de dados;  
+Os métodos principais da interface são pelo menos **os que constituem o CRUD**;  
+A interface pode ser re-implementada em diversos bancos;  
