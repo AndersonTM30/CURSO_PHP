@@ -11,7 +11,27 @@ class CarDAO implements ICarDAO
     }
 
     public function findAll() {
+        try {
+            $cars = [];
+            $stmt = $this->conn->query("SELECT * FROM daotest.dbo.cars");
 
+            $data = $stmt->fetchAll();
+
+            foreach($data as $item) {
+                $car = new Car();
+                $car->setId($item['id']);
+                $car->setBrand($item['brand']);
+                $car->setKm($item['km']);
+                $car->setColor($item['color']);
+
+                $cars[] = $car;
+            }
+            return $cars;
+
+        } catch (PDOException $err) {
+            $error = $err->getMessage();
+            echo "Erro: $error";
+        } 
     }
 
     public function create(Car $car) {
