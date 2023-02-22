@@ -15,7 +15,7 @@ class Car
         $this->id = $id;
     }
 
-    public function geBrand() {
+    public function getBrand() {
         return $this->brand;
     }
 
@@ -28,7 +28,7 @@ class Car
     }
 
     public function setKm($km) {
-        $this->km = $km;
+        $this->km = intval($km);
     }
 
     public function getColor() {
