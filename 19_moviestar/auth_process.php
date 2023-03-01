@@ -47,13 +47,13 @@ if($type === "register") {
                 $userDao->create($user, $auth);
 
             }else {
-                // Enviar uma mensagem de erro, de senhas não batem
-                $message->setMessage("As senhas não são iguais", "error", "back");
+                // Enviar uma mensagem de erro, usuário já existe
+                $message->setMessage("Usuário já cadastrado, tente outro e-mail", "error", "back");
             }
-
+            
         }else {
-            // Enviar uma mensagem de erro, usuário já existe
-            $message->setMessage("Usuário já cadastrado, tente outro e-mail", "error", "back");
+            // Enviar uma mensagem de erro, de senhas não batem
+            $message->setMessage("As senhas não são iguais", "error", "back");
         }
     } else {
         // enviar uma mensagem de erro, de dados que faltam
