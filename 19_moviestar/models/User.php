@@ -2,7 +2,7 @@
 
 class User 
 {
-    public $id;
+    public int $id;
     public $name;
     public $lastname;
     public $email;
@@ -24,6 +24,11 @@ class User
     public function generatePassword($password)
     {
         return password_hash($password, PASSWORD_DEFAULT);
+    }
+
+    public function imageGenerateName()
+    {
+        return bin2hex(random_bytes(60)) . ".jpg";
     }
 }
 
