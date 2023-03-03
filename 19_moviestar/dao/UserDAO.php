@@ -109,7 +109,7 @@ class UserDAO implements UserDAOInterface
     }
 
     public function authenticateUser($email, $password){
-
+ 
         $user = $this->findByEmail($email);
 
         if($user) {
