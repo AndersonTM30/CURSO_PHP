@@ -153,6 +153,10 @@ class MovieDAO implements MovieDAOInterface
 
     public function destroy($id)
     {
-        
+        $stmt = $this->conn->prepare("DELETE FROM moviestar.dbo.movies WHERE id = :id");
+        $stmt->bindParam(":id", $id);
+        $stmt->execute();
+
+        $this->message->setMessage("Filme excluído com sucesso!", "success", "dashboard.php");
     }
 }
