@@ -1,6 +1,16 @@
 <?php
 
 require_once("templates/header.php");
+require_once("dao/MovieDAO.php");
+
+// DAO dos filmes
+$movieDao = new MovieDAO($conn, $BASE_URL);
+
+$latestMovies = $movieDao->getlasttMovies();
+
+$actionMovies = [];
+
+$comedyMovies = [];
 
 ?>
 
@@ -8,20 +18,10 @@ require_once("templates/header.php");
         <h2 class="section-title">Filmes Novos</h2>
         <p class="section-description">Veja as críticas dos últimos adicionados no MovieStar</p>
         <div class="movies-container">
-            <div class="card movie-card">
-                <div class="car-img-top" style="background-image: url('<?= $BASE_URL ?>img/movies/movie_cover.jpg')"></div>
-                <div class="card-body">
-                    <p class="card-rating">
-                        <i class="fas fa-star"></i>
-                        <span class="rating">9</span>
-                    </p>
-                    <h5 class="card-title">
-                        <a href="#">Título do Filme</a>
-                    </h5>
-                    <a href="#" class="btn btn-primary rate-btn">Avaliar</a>
-                    <a href="#" class="btn btn-primary card-btn">Conhecer</a>
-                </div>
-            </div>
+            <?php foreach($latestMovies as $movie): ?>
+               <?php require_once("templates/movie_card.php"); ?>
+            <?php endforeach; ?>    
+            
         </div>
 
         <h2 class="section-title">Ação</h2>
