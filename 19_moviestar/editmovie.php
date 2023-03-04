@@ -77,7 +77,7 @@ if($movie->image == "") {
                         <label for="description">Trailer:</label>
                         <textarea name="description" id="description" rows="5" placeholder="Descreva o filme"><?= $movie->description ?></textarea>
                     </div>
-                    <input type="submit" class="btn card-btn" value="Adicionar Filme">
+                    <input type="submit" class="btn card-btn" value="Editar Filme">
                 </form>
             </div>
             <div class="col-md-3">
