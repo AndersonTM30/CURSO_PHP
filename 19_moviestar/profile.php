@@ -12,7 +12,7 @@ require_once("dao/MovieDAO.php");
 
     $movieDao = new MovieDAO($conn, $BASE_URL);
 
-    $userData = $userDao->verifyToken();
+    // $userData = $userDao->verifyToken();
 
     $id = filter_input(INPUT_POST, "id");
 

@@ -6,7 +6,7 @@ require_once("dao/MovieDAO.php");
 // DAO dos filmes
 $movieDao = new MovieDAO($conn, $BASE_URL);
 
-$latestMovies = $movieDao->getlasttMovies();
+$latestMovies = $movieDao->getLatestMovies();
 
 $actionMovies = $movieDao->getMoviesByCategory("Ação");
 
@@ -16,13 +16,13 @@ $comedyMovies = $movieDao->getMoviesByCategory("Comédia");
 
 <div id="main-container" class="container-fluid">
     <h2 class="section-title">Filmes Novos</h2>
-    <p class="section-description">Veja as críticas dos últimos adicionados no MovieStar</p>
+    <p class="section-description">Veja as críticas dos últimos filmes adicionados no MovieStar</p>
     <div class="movies-container">
-        <?php foreach ($latestMovies as $movie) : ?>
+        <?php foreach($latestMovies as $movie) : ?>
             <?php require_once("templates/movie_card.php"); ?>
         <?php endforeach; ?>
 
-        <?php if (count($latestMovies) ===  0) : ?>
+        <?php if(count($latestMovies) ===  0) : ?>
             <p class="empty-list">Ainda não há filmes cadastrados!</p>
         <?php endif; ?>
 

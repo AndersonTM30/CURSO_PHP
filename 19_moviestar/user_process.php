@@ -48,12 +48,12 @@ if($type === "update") {
 
                 // Imagem é png
             } else {
-                $imageFile = imagecreatefromjpeg($image["tmp_name"]);
+                $imageFile = imagecreatefrompng($image["tmp_name"]);
             }
 
             $imageName = $user->imageGenerateName();
 
-            imagejpeg($imageFile. "./img/users/" . $imageName, 100);
+            imagejpeg($imageFile, "./img/users/" . $imageName, 100);
 
             $userData->image = $imageName;
 

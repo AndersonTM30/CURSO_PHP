@@ -28,13 +28,13 @@ $userData = $userDao->verifyToken(false);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MovieStar</title>
-    <link rel="short icon" href="img/moviestar.ico">
+    <link rel="short icon" href="<?= $BASE_URL ?>img/moviestar.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.css" integrity="sha512-drnvWxqfgcU6sLzAJttJv7LKdjWn0nxWCSbEAtxJ/YYaZMyoNLovG7lPqZRdhgL1gAUfa+V7tbin8y+2llC1cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS do projeto -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="<?= $BASE_URL ?>css/styles.css">
 </head>
 
 <body>
@@ -50,7 +50,7 @@ $userData = $userDao->verifyToken(false);
             </button>
             <form action="<?= $BASE_URL ?>search.php" method="GET" id="search-form" class="form-inline my-2 my-lg-0">
                 <input type="text" name="q" id="search" class="form-control mr-sm-2" type="search" placeholder="Buscar Filmes" aria-label="Search">
-                <button class="btn my-2 m-sm-0" type="submit">
+                <button class="btn my-2 my-sm-0" type="submit">
                     <i class="fas fa-search"></i>
                 </button>
             </form>
@@ -66,7 +66,7 @@ $userData = $userDao->verifyToken(false);
                             <a href="<?= $BASE_URL ?>dashboard.php" class="nav-link">Meus Filmes</a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= $BASE_URL ?>editprofile.php" class="nav-link">
+                            <a href="<?= $BASE_URL ?>editprofile.php" class="nav-link bold">
                             <?= $userData->name ?>
                             </a>
                         </li>

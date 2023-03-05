@@ -37,7 +37,7 @@ if($type === "create") {
 
             $reviewObject->rating = $rating;
             $reviewObject->review = $review;
-            $reviewObject->movies_id = $rating;
+            $reviewObject->movies_id = $movies_id;
             $reviewObject->users_id = $users_id;
 
             $reviewDao->create($reviewObject);

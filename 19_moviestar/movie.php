@@ -35,9 +35,6 @@ if($movie->image == "") {
     $movie->image = 'movie_cover.jpg';
 }
 
-// resgatar as reviews do filme
-$movieReviews = $reviewDao->getMoviesReview($id);
-
 // checar se o filme é do usuário
 $userOwnsMovie = false;
 
@@ -46,8 +43,11 @@ if(!empty($userData)) {
         $userOwnsMovie = true;
     }
     // resgatar as reviews do filme
-    $alreadyReveiwed = $reviewDao->hasAlreadyReviewed($id, $userData->id);
+    $alreadyReviewed = $reviewDao->hasAlreadyReviewed($id, $userData->id);
 }
+
+// resgatar as reviews do filme
+$movieReviews = $reviewDao->getMoviesReview($movie->id);
 
 
 ?>
@@ -66,12 +66,12 @@ if(!empty($userData)) {
             <p><?= $movie->description ?></p>
         </div>
         <div class="col-md-4">
-            <div class="movie-image-container" style="background-image: url(<?= $BASE_URL ?>/img/movies/<?= $movie->image ?>);"></div>
+            <div class="movie-image-container" style="background-image: url('<?= $BASE_URL ?>/img/movies/<?= $movie->image ?>');"></div>
         </div>
         <div class="offset-md-1 col-md-10" id="reviews-container">
             <h3 id="reviews-title">Avaliações:</h3>
             <!-- verifica se habilita a review para o usuário ou não -->
-            <?php if(!empty($userData) && !$userOwnsMovie && !$alreadyReveiwed): ?>       
+            <?php if(!empty($userData) && !$userOwnsMovie && !$alreadyReviewed): ?>       
             <div class="col-md-12" id="review-form-container">
                 <h4>Envie sua avaliação:</h4>
                 <p class="page-description">Preencha o formulário com a nota e comentário sobre o filme</p>
@@ -110,10 +110,10 @@ if(!empty($userData)) {
             <?php if(count($movieReviews) === 0): ?>
                 <p class="empty-list">Não há comentários para este filme ainda...</p>
             <?php endif; ?>
-            <div class="col-md-12 review">
+            <!-- <div class="col-md-12 review">
                 <div class="row">
                     <div class="col-md-1">
-                        <div class="profile-image-container review-image" style="background-image: url(<?= $BASE_URL ?>/img/users/user.png);"></div>
+                        <div class="profile-image-container review-image" style="background-image: url(<= $BASE_URL ?>/img/users/user.png);"></div>
                     </div>
                     <div class="col-md-9 author-details-container">
                         <h4 class="author-name">
@@ -126,12 +126,12 @@ if(!empty($userData)) {
                         <p>Este é comentário do usuário</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="col-md-12 review">
+            <!-- <div class="col-md-12 review">
                 <div class="row">
                     <div class="col-md-1">
-                        <div class="profile-image-container review-image" style="background-image: url(<?= $BASE_URL ?>/img/users/user.png);"></div>
+                        <div class="profile-image-container review-image" style="background-image: url(<= $BASE_URL ?>/img/users/user.png);"></div>
                     </div>
                     <div class="col-md-9 author-details-container">
                         <h4 class="author-name">
@@ -144,7 +144,7 @@ if(!empty($userData)) {
                         <p>Este é comentário do usuário</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

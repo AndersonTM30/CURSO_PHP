@@ -14,7 +14,7 @@ $movieDao = new MovieDAO($conn, $BASE_URL);
 
 $userData = $userDao->verifyToken(true);
 
-$userMovies = $movieDao->getMoviesByUserId($userData);
+$userMovies = $movieDao->getMoviesByUserId($userData->id);
 
 ?>
 
@@ -29,16 +29,16 @@ $userMovies = $movieDao->getMoviesByUserId($userData);
     <div class="col-md-12" id="movies-dashboard">
         <table class="table">
             <thead>
-                <th scope="col">#</th>
-                <th scope="col">Título</th>
-                <th scope="col">Nota</th>
-                <th scope="col" class="actions-column">Ações</th>
+                    <th scope="col">#</th>
+                    <th scope="col">Título</th>
+                    <th scope="col">Nota</th>
+                    <th scope="col" class="actions-column">Ações</th>
             </thead>
             <tbody>
                 <?php foreach($userMovies as $movie): ?>
                     <tr>
                         <td scope="row"><?= $movie->id ?></td>
-                        <td><a href="<?= $BASE_URL ?>movie.php?=<?= $movie->id ?>" class="table-movie-title"><?= $movie->title ?></a></td>
+                        <td><a href="<?= $BASE_URL ?>movie.php?id=<?= $movie->id ?>" class="table-movie-title"><?= $movie->title ?></a></td>
                         <td><i class="fas fa-star"><?= $movie->rating ?></i></td>
                         <td class="actions-column">
                             <a href="<?= $BASE_URL ?>editmovie.php?id=<?= $movie->id ?>" class="edit-btn">

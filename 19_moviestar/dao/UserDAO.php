@@ -48,7 +48,7 @@ class UserDAO implements UserDAOInterface
 
         // autenticar usuário, caso auth seja true
         if($authUser) {
-            $this->setTokenSession($user->token);
+            $this->setTokenToSession($user->token);
         }
     }
 
@@ -98,7 +98,7 @@ class UserDAO implements UserDAOInterface
         }
     }
 
-    public function setTokenSession($token, $redirect = true){
+    public function setTokenToSession($token, $redirect = true){
         // salvar token na seeion
         $_SESSION["token"] = $token;
 
@@ -118,7 +118,7 @@ class UserDAO implements UserDAOInterface
                 // gerar um token e inserir na session
                 $token = $user->generateToken();
 
-                $this->setTokenSession($token, false);
+                $this->setTokenToSession($token, false);
 
                 // atualizar token no usuário
                 $user->token = $token;
@@ -135,7 +135,6 @@ class UserDAO implements UserDAOInterface
     }
 
     public function findByEmail($email){
-
         if($email != "") {
 
             $stmt = $this->conn->prepare("SELECT * FROM moviestar.dbo.users WHERE email = :email");
@@ -212,7 +211,7 @@ class UserDAO implements UserDAOInterface
 
     public function changePassword(User $user){
 
-        $stmt = $this->conn->prepare("UPDATE users SET
+        $stmt = $this->conn->prepare("UPDATE moviestar.dbo.users SET
             password = :password WHERE id = :id
         ");
 

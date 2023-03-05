@@ -47,7 +47,7 @@ class MovieDAO implements MovieDAOInterface
         
     }
 
-    public function getlasttMovies()
+    public function getLatestMovies()
     {
         $movies = [];
 
@@ -71,7 +71,7 @@ class MovieDAO implements MovieDAOInterface
         $movies = [];
 
         $stmt = $this->conn->prepare("SELECT * FROM moviestar.dbo.movies WHERE category = :category ORDER BY id DESC");
-        $stmt->bindParam("category", $category);
+        $stmt->bindParam(":category", $category);
 
         $stmt->execute();
 
@@ -91,7 +91,7 @@ class MovieDAO implements MovieDAOInterface
         $movies = [];
 
         $stmt = $this->conn->prepare("SELECT * FROM moviestar.dbo.movies WHERE users_id = :users_id");
-        $stmt->bindParam("users_id", $id);
+        $stmt->bindParam(":users_id", $id);
 
         $stmt->execute();
 
@@ -111,7 +111,7 @@ class MovieDAO implements MovieDAOInterface
         $movie = [];
 
         $stmt = $this->conn->prepare("SELECT * FROM moviestar.dbo.movies WHERE id = :id");
-        $stmt->bindParam("id", $id);
+        $stmt->bindParam(":id", $id);
 
         $stmt->execute();
 
@@ -151,7 +151,7 @@ class MovieDAO implements MovieDAOInterface
     public function create(Movie $movie)
     {
         $stmt = $this->conn->prepare("INSERT INTO moviestar.dbo.movies (
-            title, description, image, trailer, category, length, title
+            title, description, image, trailer, category, length, users_id
         ) VALUES (
             :title, :description, :image, :trailer, :category, :length, :users_id
         )");
@@ -177,7 +177,7 @@ class MovieDAO implements MovieDAOInterface
             image = :image,
             category = :category,
             trailer = :trailer,
-            length = :length,
+            length = :length
             WHERE id = :id
         ");
 
