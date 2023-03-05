@@ -58,10 +58,19 @@ class ReviewDAO implements ReviewDAOInterface
         $stmt->execute();
 
         if($stmt->rowCount() > 0) {
-            $reviewData = $stmt->fetch();
+            $reviewData = $stmt->fetchAll();
+
+            $userDao = new UserDAO($this->conn, $this->url);
 
             foreach($reviewData as $review) {
-                $reviews[] = $this->buildReview($reviewData);
+                $reviewObject = $this->buildReview($reviewData);
+
+                // chamar dados do usuário
+                $user = $userDao->findById($reviewObject->id);
+
+                $reviewObject->users_id = $user;
+
+                $reviews[] = $reviewObject;
             }
 
         } 
