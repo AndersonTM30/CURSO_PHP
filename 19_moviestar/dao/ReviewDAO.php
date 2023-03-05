@@ -52,7 +52,21 @@ class ReviewDAO implements ReviewDAOInterface
 
     public function getMoviesReview($id)
     {
-        
+        $reviews = [];
+        $stmt = $this->conn->prepare("SELECT * FROM moviestar.dbo.reviews WHERE movies_id = :movies_id");
+        $stmt->bindParam(":movies_id", $id);
+        $stmt->execute();
+
+        if($stmt->rowCount() > 0) {
+            $reviewData = $stmt->fetch();
+
+            foreach($reviewData as $review) {
+                $reviews[] = $this->buildReview($reviewData);
+            }
+
+        } 
+
+        return $reviews;
     }
 
     public function hasAlreadyReviewed($id, $userId)
